@@ -1,10 +1,17 @@
 #!/usr/bin/python
-# import cgi
-# import cgitb
+print "Content-Type: text/html"     # HTML is following
+print                               # blank line, end of headers
+print "<title>hello world</title>"
+
+import cgi
+import cgitb
+import re
+from HTMLParser import HTMLParser
+cgitb.enable()
 # import urllib2
 # import json
 #import gd
-#import graphutils
+# import graphutils
 # geneid = "At1g11190"
 # j = json.loads(urllib2.urlopen("http://bar.utoronto.ca/webservices/araport/gff/get_tair10_gff.php?locus=" + geneid).read())
 # start = j[u'result'][0][u'start'] if j[u'result'][0][u'strand'] == u'+' else j[u'result'][0][u'end']
@@ -32,14 +39,47 @@
     #values.append(float(int(read.split('\t')[3]) - read.split('\t')[4].count('<') - read.split('\t')[4].count('>')))
 
 #values = [int(x / max(values) * 200) for x in values]
-svg = open("http://bar.utoronto.ca/~rsong/efp_arabidopsis/cgi-bin/SVGs/youngSeedling.svg", "r")
-print "Content-Type: text/html"
-print
-print "<html>"
-print "<title> hello world! </title>"
+# create a subclass and override the handler methods
+collector = {}
+svg = open("SVGs/youngSeedling.svg", "r")
+data = svg.read()
+# class MyHTMLParser(HTMLParser):
+#     def handle_starttag(self, tag, attrs):
+# 		print self.getpos()
+# #         if tag == 'g':
+			
+# # 			collector[attrs] = 
+# 		print "Encountered an start tag:", tag
+#     def handle_endtag(self, tag):
+#         print "Encountered an end tag :", tag
+#     def handle_data(self, data):
+#         print "Encountered some data  :", data
+# parser = MyHTMLParser()
+# parser.feed(data)
+
+form = cgi.FieldStorage()
+print '<script src="sort.js"> </script>'
 print "<body>"
-# print '<img src="../test.png"> <p />'
-# print svg.read()
-# print '<img src="../rnaseqgraph.png">'
+print '	<table border="1" class="sortable" style="width:100%" align="centre">'
+print '		<tr>'
+print '			<td> Hello World </td>'
+print '			<td />'
+print '		</tr>'
+print '		<tr>'
+print '			<td />'
+print '			<td />'
+print '		</tr>'
+print '	</table>'
+print '<img src="test.png"> <p />'
+print data.replace('fill="none"', 'fill="blue"')
+print '<img src="rnaseqgraph.png">'
+print form.getvalue("name")
 print "</body>"
-print "</html>"
+# print "</html>"
+
+# look into svg parsing
+# populate the fields with svg. try different colours
+
+
+#cgi.FieldStorage()
+#form.getvalue()
