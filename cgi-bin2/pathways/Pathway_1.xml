@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<pathway name="Pathway_1" img="Pathway1_image.tga">
+	<coords graphX="844" graphY="3" legendX="10" legendY="30"/>
+	<extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="640,0,964,0,964,33,640,33"/>
+	<gene name="AT1G01050" colorKey="#FF6600" parameters="Yes">
+		<link url="http://bar.utoronto.ca/efp/cgi-bin/efpWeb.cgi"/>
+		<area coords="95,125,95,280,245,280,245,125"/>
+	</gene>
+	<gene name="AT2G02370" colorKey="#F9F3B6" parameters="Yes">
+		<link url="http://bar.utoronto.ca/efp/cgi-bin/efpWeb.cgi"/>
+		<area coords="530,130,530,285,690,285,690,130"/>
+	</gene>
+	<gene name="AT2G26170" colorKey="#64F3E7" parameters="Yes">
+		<link url="http://bar.utoronto.ca/efp/cgi-bin/efpWeb.cgi"/>
+		<area coords="320,400,320,555,475,555,475,400"/>
+	</gene> 
+</pathway>

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Arabidopsis">
+<view name="all" class="" db="root" img="Root_image.tga">
+<coords graphX="810" graphY="161" graphWidth="64" graphHeight="87" legendX="890" legendY="49" />
+<extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="640,0,964,0,964,33,640,33" />
+<extra name="Gene is induced by protoplasting if this box is outlined in red. See Supplemental Table 1 of Birnbaum et al., 2003" link="http://www.sciencemag.org/cgi/data/302/5652/1956/DC1/1" parameters="No" check="data/protoplasting_induced_genes_Birnbaum_et_al_2003.txt" coords="596,6,636,6,636,36,596,36" checkColumn="0"/>
+<extra name="Brady et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/318/5851/801" parameters="No" coords="324,172,719,172,719,184,324,184" />
+<extra name="Cartwright et al. paper in Bioinformatics" link="http://bioinformatics.oxfordjournals.org/cgi/content/abstract/25/19/2581" parameters="No" coords="630,218,922,218,922,227,630,227" />
+<extra name="Dinneny et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/1153795" parameters="No" coords="322,251,575,251,575,262,322,262" />
+<extra name="Dinneny et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/1153795" parameters="No" coords="324,726,667,726,667,738,324,738" />
+<extra name="Gifford et al. paper in the Proceedings of the National Academy of Sciences, U.S.A." link="http://www.pnas.org/content/105/2/803.abstract" parameters="No" coords="324,1196,612,1196,612,1207,324,1207" />
+
+<extra name="Brady et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/318/5851/801" parameters="No" coords="13,50,272,50,272,1721,13,1721" />
+<extra name="Dinneny et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/1153795" parameters="No" coords="324,306,995,306,995,709,324,709" />
+<extra name="Dinneny et al. paper in Science" link="http://www.sciencemag.org/cgi/content/abstract/1153795" parameters="No" coords="324,785,995,785,995,1184,324,1184" />
+<extra name="Gifford et al. paper in the Proceedings of the National Academy of Sciences, U.S.A." link="http://www.pnas.org/content/105/2/803.abstract" parameters="No" coords="324,1251,995,1251,995,1687,324,1687" />
+
+<group name="Longitudinal zone 1, salt">
+<control sample="GSM184831" />
+<control sample="GSM184832" />
+<tissue colorKey="#3EA0FB" name="longitudinal zone 1,  standard conditions">
+<sample name="GSM184831" />
+<sample name="GSM184832" />
+</tissue>
+<tissue colorKey="#3E60FB" name="longitudinal zone 1, 140 mM NaCl">
+<sample name="GSM184839" />
+<sample name="GSM184840" />
+</tissue>
+</group>
+<group name="Longitudinal zone 2, salt">
+<control sample="GSM184833" />
+<control sample="GSM184834" />
+<tissue colorKey="#349CFD" name="longitudinal zone 2,  standard conditions">
+<sample name="GSM184833" />
+<sample name="GSM184834" />
+</tissue>
+<tissue colorKey="#345CFD" name="longitudinal zone 2, 140 mM NaCl">
+<sample name="GSM184841" />
+<sample name="GSM184842" />
+</tissue>
+</group>
+<group name="Longitudinal zone 3, salt">
+<control sample="GSM184835" />
+<control sample="GSM184836" />
+<tissue colorKey="#2595FD" name="longitudinal zone 3,  standard conditions">
+<sample name="GSM184835" />
+<sample name="GSM184836" />
+</tissue>
+<tissue colorKey="#2555FD" name="longitudinal zone 3, 140 mM NaCl">
+<sample name="GSM184843" />
+<sample name="GSM184844" />
+</tissue>
+</group>
+<group name="Longitudinal zone 4, salt">
+<control sample="GSM184837" />
+<control sample="GSM184838" />
+<tissue colorKey="#168FFF" name="longitudinal zone 4,  standard conditions">
+<sample name="GSM184837" />
+<sample name="GSM184838" />
+</tissue>
+<tissue colorKey="#164FFF" name="longitudinal zone 4, 140 mM NaCl">
+<sample name="GSM184845" />
+<sample name="GSM184846" />
+</tissue>
+</group>
+<group name="Epidermis and LRC">
+<control sample="GSM184889" />
+<control sample="GSM184890" />
+<control sample="GSM184891" />
+<tissue colorKey="#FF669A" name="epidermis and lateral root cap,  standard conditions">
+<sample name="GSM184889" />
+<sample name="GSM184890" />
+<sample name="GSM184891" />
+</tissue>
+<tissue colorKey="#CF669A" name="epidermis and lateral root cap,  140 mM NaCl">
+<sample name="GSM184907" />
+<sample name="GSM184908" />
+<sample name="GSM184909" />
+</tissue>
+<tissue colorKey="#AF669A" name="epidermis and lateral root cap,  -Fe">
+<sample name="GSM266662" />
+<sample name="GSM266663" />
+<sample name="GSM266664" />
+<sample name="GSM266665" />
+</tissue>
+</group>
+<group name="Columella root cap">
+<control sample="GSM184892" />
+<control sample="GSM184893" />
+<control sample="GSM184894" />
+<tissue colorKey="#62C7F1" name="columella root cap,  standard conditions">
+<sample name="GSM184892" />
+<sample name="GSM184893" />
+<sample name="GSM184894" />
+</tissue>
+<tissue colorKey="#22C7F1" name="columella root cap,  140 mM NaCl">
+<sample name="GSM184910" />
+<sample name="GSM184911" />
+<sample name="GSM184912" />
+</tissue>
+<tissue colorKey="#02C7F1" name="columella root cap,  -Fe">
+<sample name="GSM266666" />
+<sample name="GSM266667" />
+<sample name="GSM266668" />
+</tissue>
+</group>
+<group name="Cortex">
+<control sample="GSM184895" />
+<control sample="GSM184896" />
+<control sample="GSM184897" />
+<tissue colorKey="#FFF560" name="cortex,  standard conditions">
+<sample name="GSM184895" />
+<sample name="GSM184896" />
+<sample name="GSM184897" />
+</tissue>
+<tissue colorKey="#CFF560" name="cortex,  140 mM NaCl">
+<sample name="GSM184913" />
+<sample name="GSM184914" />
+<sample name="GSM184915" />
+</tissue>
+<tissue colorKey="#AFF560" name="cortex,  -Fe">
+<sample name="GSM266669" />
+<sample name="GSM266670" />
+<sample name="GSM266671" />
+</tissue>
+</group>
+<group name="Endodermis and quiescent center">
+<control sample="GSM184898" />
+<control sample="GSM184899" />
+<control sample="GSM184900" />
+<tissue colorKey="#76C241" name="endodermis and quiescent center,  standard conditions">
+<sample name="GSM184898" />
+<sample name="GSM184899" />
+<sample name="GSM184900" />
+</tissue>
+<tissue colorKey="#36C241" name="endodermis and quiescent center,  140 mM NaCl">
+<sample name="GSM184916" />
+<sample name="GSM184917" />
+<sample name="GSM184918" />
+</tissue>
+<tissue colorKey="#16C241" name="endodermis and quiescent center,  -Fe">
+<sample name="GSM266672" />
+<sample name="GSM266673" />
+<sample name="GSM266674" />
+</tissue>
+</group>
+<group name="Stele">
+<control sample="GSM184901" />
+<control sample="GSM184902" />
+<control sample="GSM184903" />
+<tissue colorKey="#C799CE" name="stele,  standard conditions">
+<sample name="GSM184901" />
+<sample name="GSM184902" />
+<sample name="GSM184903" />
+</tissue>
+<tissue colorKey="#9799CE" name="stele,  140 mM NaCl">
+<sample name="GSM184919" />
+<sample name="GSM184920" />
+<sample name="GSM184921" />
+</tissue>
+<tissue colorKey="#7799CE" name="stele,  -Fe">
+<sample name="GSM266675" />
+<sample name="GSM266676" />
+<sample name="GSM266677" />
+</tissue>
+</group>
+<group name="Protophloem">
+<control sample="GSM184904" />
+<control sample="GSM184905" />
+<control sample="GSM184906" />
+<tissue colorKey="#FF161A" name="protophloem,  standard conditions">
+<sample name="GSM184904" />
+<sample name="GSM184905" />
+<sample name="GSM184906" />
+</tissue>
+<tissue colorKey="#CF161A" name="protophloem,  140 mM NaCl">
+<sample name="GSM184922" />
+<sample name="GSM184923" />
+<sample name="GSM184924" />
+</tissue>
+</group>
+<group name="Whole root, salt">
+<control sample="GSM184925" />
+<control sample="GSM184926" />
+<tissue colorKey="#CD25FD" name="Whole root, standard conditions (control)">
+<sample name="GSM184925" />
+<sample name="GSM184926" />
+</tissue>
+<tissue colorKey="#CD35FD" name="Whole root, 30 minutes of 140 mM NaCl exposure">
+<sample name="GSM184927" />
+<sample name="GSM184928" />
+</tissue>
+<tissue colorKey="#CD45FD" name="Whole root, 1 hour of 140 mM NaCl exposure">
+<sample name="GSM184929" />
+<sample name="GSM184930" />
+</tissue>
+<tissue colorKey="#CD55FD" name="Whole root, 4 hours of 140 mM NaCl exposure">
+<sample name="GSM184931" />
+<sample name="GSM184932" />
+</tissue>
+<tissue colorKey="#CD65FD" name="Whole root, 16 hours of 140 mM NaCl exposure">
+<sample name="GSM184933" />
+<sample name="GSM184934" />
+</tissue>
+<tissue colorKey="#CD75FD" name="Whole root, 32 hours of 140 mM NaCl exposure">
+<sample name="GSM184935" />
+<sample name="GSM184936" />
+</tissue>
+</group>
+<group name="Longitudinal zone 1, iron depletion">
+<control sample="GSM265418" />
+<control sample="GSM265419" />
+<tissue colorKey="#3E50FB" name="longitudinal zone 1,  standard conditions">
+<sample name="GSM265418" />
+<sample name="GSM265419" />
+</tissue>
+<tissue colorKey="#3E40FB" name="longitudinal zone 1,  -Fe conditions">
+<sample name="GSM265426" />
+<sample name="GSM265427" />
+</tissue>
+</group>
+<group name="Longitudinal zone 2, iron depletion">
+<control sample="GSM265420" />
+<control sample="GSM265421" />
+<tissue colorKey="#344CFD" name="longitudinal zone 2,  standard conditions">
+<sample name="GSM265420" />
+<sample name="GSM265421" />
+</tissue>
+<tissue colorKey="#343CFD" name="longitudinal zone 2,  -Fe conditions">
+<sample name="GSM265428" />
+<sample name="GSM265429" />
+</tissue>
+</group>
+<group name="Longitudinal zone 3, iron depletion">
+<control sample="GSM265422" />
+<control sample="GSM265423" />
+<tissue colorKey="#2545FD" name="longitudinal zone 3,  standard conditions">
+<sample name="GSM265422" />
+<sample name="GSM265423" />
+</tissue>
+<tissue colorKey="#2535FD" name="longitudinal zone 3,  -Fe conditions">
+<sample name="GSM265430" />
+<sample name="GSM265431" />
+</tissue>
+</group>
+<group name="Longitudinal zone 4, iron depletion">
+<control sample="GSM265424" />
+<control sample="GSM265425" />
+<tissue colorKey="#163FFF" name="longitudinal zone 4,  standard conditions">
+<sample name="GSM265424" />
+<sample name="GSM265425" />
+</tissue>
+<tissue colorKey="#162FFF" name="longitudinal zone 4,  -Fe conditions">
+<sample name="GSM265432" />
+<sample name="GSM265433" />
+</tissue>
+</group>
+<group name="Whole root, iron depletion">
+<control sample="GSM265461" />
+<control sample="GSM265462" />
+<tissue colorKey="#CD25FD" name="Whole root, standard conditions, control">
+<sample name="GSM265461" />
+<sample name="GSM265462" />
+</tissue>
+<tissue colorKey="#CD25ED" name="Whole root, -Fe,  3 hour">
+<sample name="GSM265463" />
+<sample name="GSM265464" />
+</tissue>
+<tissue colorKey="#CD25DD" name="Whole root, -Fe,  6 hour">
+<sample name="GSM265465" />
+<sample name="GSM265466" />
+</tissue>
+<tissue colorKey="#CD25CD" name="Whole root, -Fe,  12 hour">
+<sample name="GSM265467" />
+<sample name="GSM265468" />
+</tissue>
+<tissue colorKey="#CD25BD" name="Whole root, -Fe,  24 hour">
+<sample name="GSM265469" />
+<sample name="GSM265470" />
+</tissue>
+<tissue colorKey="#CD25AD" name="Whole root, -Fe,  48 hour">
+<sample name="GSM265471" />
+<sample name="GSM265472" />
+</tissue>
+<tissue colorKey="#CD259D" name="Whole root, -Fe,  72 hour">
+<sample name="GSM265473" />
+<sample name="GSM265474" />
+</tissue>
+</group>
+<group name="Lateral root cap, N2 study">
+<control sample="GSM184476" />
+<control sample="GSM184477" />
+<control sample="GSM184478" />
+<tissue colorKey="#F5503A" name="Lateral Root Cap root cells 2hr KCl control treated">
+<sample name="GSM184476" />
+<sample name="GSM184477" />
+<sample name="GSM184478" />
+</tissue>
+<tissue colorKey="#D5503A" name="Lateral Root Cap root cells 2hr continuous KNO3 treated">
+<sample name="GSM184482" />
+<sample name="GSM184483" />
+<sample name="GSM184484" />
+</tissue>
+</group>
+<group name="Epidermis and Cortex root cells, N2 study">
+<control sample="GSM184485" />
+<control sample="GSM184486" />
+<control sample="GSM184487" />
+<tissue colorKey="#5A6DD5" name="Epidermis and Cortex root cells 2hr KCl control treated">
+<sample name="GSM184485" />
+<sample name="GSM184486" />
+<sample name="GSM184487" />
+</tissue>
+<tissue colorKey="#3A6DD5" name="Epidermis and Cortex root cells 2hr continuous KNO3 treated">
+<sample name="GSM184491" />
+<sample name="GSM184492" />
+<sample name="GSM184493" />
+</tissue>
+</group>
+<group name="Endodermis and Pericycle root cells, N2 study">
+<control sample="GSM184494" />
+<control sample="GSM184495" />
+<control sample="GSM184496" />
+<tissue colorKey="#D5B15A" name="Endodermis and Pericycle root cells 2hr KCl control treated">
+<sample name="GSM184494" />
+<sample name="GSM184495" />
+<sample name="GSM184496" />
+</tissue>
+<tissue colorKey="#B5B15A" name="Endodermis and Pericycle root cells 2hr continuous KNO3 treated">
+<sample name="GSM184500" />
+<sample name="GSM184501" />
+<sample name="GSM184502" />
+</tissue>
+</group>
+<group name="Pericycle root cells, N2 study">
+<control sample="GSM184503" />
+<control sample="GSM184504" />
+<control sample="GSM184505" />
+<tissue colorKey="#12762E" name="Pericycle root cells 2hr KCl control treated">
+<sample name="GSM184503" />
+<sample name="GSM184504" />
+<sample name="GSM184505" />
+</tissue>
+<tissue colorKey="#12562E" name="Pericycle root cells 2hr continuous KNO3 treated">
+<sample name="GSM184509" />
+<sample name="GSM184510" />
+<sample name="GSM184511" />
+</tissue>
+</group>
+<group name="Stele root cells, N2 study">
+<control sample="GSM184522" />
+<control sample="GSM184523" />
+<control sample="GSM184524" />
+<tissue colorKey="#E9F25F" name="Stele root cells 2hr KCl control treated">
+<sample name="GSM184522" />
+<sample name="GSM184523" />
+<sample name="GSM184524" />
+</tissue>
+<tissue colorKey="#C9F25F" name="Stele root cells 2hr continuous KNO3 treated">
+<sample name="GSM184528" />
+<sample name="GSM184529" />
+<sample name="GSM184530" />
+</tissue>
+</group>
+
+<group name="Spatiotemporal Map">
+<control sample="ROOT_CTRL" />
+<tissue colorKey="#77A201" name="columella">
+<sample name="col_1" />
+</tissue>
+<tissue colorKey="#77A202" name="columella 1">
+<sample name="col_2" />
+</tissue>
+<tissue colorKey="#77A30A" name="cortex 9">
+<sample name="cortex_10" />
+</tissue>
+<tissue colorKey="#77A30B" name="cortex 10">
+<sample name="cortex_11" />
+</tissue>
+<tissue colorKey="#77A30C" name="cortex 11">
+<sample name="cortex_12" />
+</tissue>
+<tissue colorKey="#77A30D" name="cortex 12">
+<sample name="cortex_13" />
+</tissue>
+<tissue colorKey="#77A302" name="cortex 1">
+<sample name="cortex_2" />
+</tissue>
+<tissue colorKey="#77A303" name="cortex 2">
+<sample name="cortex_3" />
+</tissue>
+<tissue colorKey="#77A304" name="cortex 3">
+<sample name="cortex_4" />
+</tissue>
+<tissue colorKey="#77A305" name="cortex 4">
+<sample name="cortex_5" />
+</tissue>
+<tissue colorKey="#77A306" name="cortex 5">
+<sample name="cortex_6" />
+</tissue>
+<tissue colorKey="#77A307" name="cortex 6">
+<sample name="cortex_7" />
+</tissue>
+<tissue colorKey="#77A308" name="cortex 7">
+<sample name="cortex_8" />
+</tissue>
+<tissue colorKey="#77A309" name="cortex 8">
+<sample name="cortex_9" />
+</tissue>
+<tissue colorKey="#77A40A" name="endodermis 9">
+<sample name="endodermis_10" />
+</tissue>
+<tissue colorKey="#77A40B" name="endodermis 10">
+<sample name="endodermis_11" />
+</tissue>
+<tissue colorKey="#77A40C" name="endodermis 11">
+<sample name="endodermis_12" />
+</tissue>
+<tissue colorKey="#77A40D" name="endodermis 12">
+<sample name="endodermis_13" />
+</tissue>
+<tissue colorKey="#77A402" name="endodermis 1">
+<sample name="endodermis_2" />
+</tissue>
+<tissue colorKey="#77A403" name="endodermis 2">
+<sample name="endodermis_3" />
+</tissue>
+<tissue colorKey="#77A404" name="endodermis 3">
+<sample name="endodermis_4" />
+</tissue>
+<tissue colorKey="#77A405" name="endodermis 4">
+<sample name="endodermis_5" />
+</tissue>
+<tissue colorKey="#77A406" name="endodermis 5">
+<sample name="endodermis_6" />
+</tissue>
+<tissue colorKey="#77A407" name="endodermis 6">
+<sample name="endodermis_7" />
+</tissue>
+<tissue colorKey="#77A408" name="endodermis 7">
+<sample name="endodermis_8" />
+</tissue>
+<tissue colorKey="#77A409" name="endodermis 8">
+<sample name="endodermis_9" />
+</tissue>
+<tissue colorKey="#77A50A" name="hair 9">
+<sample name="hair_10" />
+</tissue>
+<tissue colorKey="#77A50B" name="hair 10">
+<sample name="hair_11" />
+</tissue>
+<tissue colorKey="#77A50C" name="hair 11">
+<sample name="hair_12" />
+</tissue>
+<tissue colorKey="#77A50D" name="hair 12">
+<sample name="hair_13" />
+</tissue>
+<tissue colorKey="#77A502" name="hair 1">
+<sample name="hair_2" />
+</tissue>
+<tissue colorKey="#77A503" name="hair 2">
+<sample name="hair_3" />
+</tissue>
+<tissue colorKey="#77A504" name="hair 3">
+<sample name="hair_4" />
+</tissue>
+<tissue colorKey="#77A505" name="hair 4">
+<sample name="hair_5" />
+</tissue>
+<tissue colorKey="#77A506" name="hair 5">
+<sample name="hair_6" />
+</tissue>
+<tissue colorKey="#77A507" name="hair 6">
+<sample name="hair_7" />
+</tissue>
+<tissue colorKey="#77A508" name="hair 7">
+<sample name="hair_8" />
+</tissue>
+<tissue colorKey="#77A509" name="hair 8">
+<sample name="hair_9" />
+</tissue>
+<tissue colorKey="#77A701" name="lateral root cap">
+<sample name="lrc_1" />
+</tissue>
+<tissue colorKey="#77A702" name="lateral root cap 1">
+<sample name="lrc_2" />
+</tissue>
+<tissue colorKey="#77A703" name="lateral root cap 2">
+<sample name="lrc_3" />
+</tissue>
+<tissue colorKey="#77A704" name="lateral root cap 3">
+<sample name="lrc_4" />
+</tissue>
+<tissue colorKey="#77A705" name="lateral root cap 4">
+<sample name="lrc_5" />
+</tissue>
+<tissue colorKey="#77A706" name="lateral root cap 5">
+<sample name="lrc_6" />
+</tissue>
+<tissue colorKey="#77A70C" name="lateral root primordium 11">
+<sample name="lrp_12" />
+</tissue>
+<tissue colorKey="#77A80A" name="meta protophloem 9">
+<sample name="metaProtoPhloem_10" />
+</tissue>
+<tissue colorKey="#77A80B" name="meta protophloem 10">
+<sample name="metaProtoPhloem_11" />
+</tissue>
+<tissue colorKey="#77A80C" name="meta protophloem 11">
+<sample name="metaProtoPhloem_12" />
+</tissue>
+<tissue colorKey="#77A80D" name="meta protophloem 12">
+<sample name="metaProtoPhloem_13" />
+</tissue>
+<tissue colorKey="#77A803" name="meta protophloem 2">
+<sample name="metaProtoPhloem_3" />
+</tissue>
+<tissue colorKey="#77A804" name="meta protophloem 3">
+<sample name="metaProtoPhloem_4" />
+</tissue>
+<tissue colorKey="#77A805" name="meta protophloem 4">
+<sample name="metaProtoPhloem_5" />
+</tissue>
+<tissue colorKey="#77A806" name="meta protophloem 5">
+<sample name="metaProtoPhloem_6" />
+</tissue>
+<tissue colorKey="#77A807" name="meta protophloem 6">
+<sample name="metaProtoPhloem_7" />
+</tissue>
+<tissue colorKey="#77A808" name="meta protophloem 7">
+<sample name="metaProtoPhloem_8" />
+</tissue>
+<tissue colorKey="#77A809" name="meta protophloem 8">
+<sample name="metaProtoPhloem_9" />
+</tissue>
+<tissue colorKey="#77A90A" name="non root hair cell 9">
+<sample name="nonHair_10" />
+</tissue>
+<tissue colorKey="#77A90B" name="non root hair cell 10">
+<sample name="nonHair_11" />
+</tissue>
+<tissue colorKey="#77A90C" name="non root hair cell 11">
+<sample name="nonHair_12" />
+</tissue>
+<tissue colorKey="#77A90D" name="non root hair cell 12">
+<sample name="nonHair_13" />
+</tissue>
+<tissue colorKey="#77A902" name="non root hair cell 1">
+<sample name="nonHair_2" />
+</tissue>
+<tissue colorKey="#77A903" name="non root hair cell 2">
+<sample name="nonHair_3" />
+</tissue>
+<tissue colorKey="#77A904" name="non root hair cell 3">
+<sample name="nonHair_4" />
+</tissue>
+<tissue colorKey="#77A905" name="non root hair cell 4">
+<sample name="nonHair_5" />
+</tissue>
+<tissue colorKey="#77A906" name="non root hair cell 5">
+<sample name="nonHair_6" />
+</tissue>
+<tissue colorKey="#77A907" name="non root hair cell 6">
+<sample name="nonHair_7" />
+</tissue>
+<tissue colorKey="#77A908" name="non root hair cell 7">
+<sample name="nonHair_8" />
+</tissue>
+<tissue colorKey="#77A909" name="non root hair cell 8">
+<sample name="nonHair_9" />
+</tissue>
+<tissue colorKey="#77AA0A" name="phloem companion cell 9">
+<sample name="phloem_10" />
+</tissue>
+<tissue colorKey="#77AA0B" name="phloem companion cell 10">
+<sample name="phloem_11" />
+</tissue>
+<tissue colorKey="#77AA0C" name="phloem companion cell 11">
+<sample name="phloem_12" />
+</tissue>
+<tissue colorKey="#77AA0D" name="phloem companion cell 12">
+<sample name="phloem_13" />
+</tissue>
+<tissue colorKey="#77AA03" name="phloem companion cell 2">
+<sample name="phloem_3" />
+</tissue>
+<tissue colorKey="#77AA04" name="phloem companion cell 3">
+<sample name="phloem_4" />
+</tissue>
+<tissue colorKey="#77AA05" name="phloem companion cell 4">
+<sample name="phloem_5" />
+</tissue>
+<tissue colorKey="#77AA06" name="phloem companion cell 5">
+<sample name="phloem_6" />
+</tissue>
+<tissue colorKey="#77AA07" name="phloem companion cell 6">
+<sample name="phloem_7" />
+</tissue>
+<tissue colorKey="#77AA08" name="phloem companion cell 7">
+<sample name="phloem_8" />
+</tissue>
+<tissue colorKey="#77AA09" name="phloem companion cell 8">
+<sample name="phloem_9" />
+</tissue>
+<tissue colorKey="#77AB0A" name="phloem pole pericycle 9">
+<sample name="phloemPole_10" />
+</tissue>
+<tissue colorKey="#77AB0B" name="phloem pole pericycle 10">
+<sample name="phloemPole_11" />
+</tissue>
+<tissue colorKey="#77AB0C" name="phloem pole pericycle 11">
+<sample name="phloemPole_12" />
+</tissue>
+<tissue colorKey="#77AB0D" name="phloem pole pericycle 12">
+<sample name="phloemPole_13" />
+</tissue>
+<tissue colorKey="#77AB02" name="phloem pole pericycle 1">
+<sample name="phloemPole_2" />
+</tissue>
+<tissue colorKey="#77AB03" name="phloem pole pericycle 2">
+<sample name="phloemPole_3" />
+</tissue>
+<tissue colorKey="#77AB04" name="phloem pole pericycle 3">
+<sample name="phloemPole_4" />
+</tissue>
+<tissue colorKey="#77AB05" name="phloem pole pericycle 4">
+<sample name="phloemPole_5" />
+</tissue>
+<tissue colorKey="#77AB06" name="phloem pole pericycle 5">
+<sample name="phloemPole_6" />
+</tissue>
+<tissue colorKey="#77AB07" name="phloem pole pericycle 6">
+<sample name="phloemPole_7" />
+</tissue>
+<tissue colorKey="#77AB08" name="phloem pole pericycle 7">
+<sample name="phloemPole_8" />
+</tissue>
+<tissue colorKey="#77AB09" name="phloem pole pericycle 8">
+<sample name="phloemPole_9" />
+</tissue>
+<tissue colorKey="#77AC0A" name="procambium 9">
+<sample name="procambium_10" />
+</tissue>
+<tissue colorKey="#77AC0B" name="procambium 10">
+<sample name="procambium_11" />
+</tissue>
+<tissue colorKey="#77AC0C" name="procambium 11">
+<sample name="procambium_12" />
+</tissue>
+<tissue colorKey="#77AC0D" name="procambium 12">
+<sample name="procambium_13" />
+</tissue>
+<tissue colorKey="#77AC02" name="procambium 1">
+<sample name="procambium_2" />
+</tissue>
+<tissue colorKey="#77AC03" name="procambium 2">
+<sample name="procambium_3" />
+</tissue>
+<tissue colorKey="#77AC04" name="procambium 3">
+<sample name="procambium_4" />
+</tissue>
+<tissue colorKey="#77AC05" name="procambium 4">
+<sample name="procambium_5" />
+</tissue>
+<tissue colorKey="#77AC06" name="procambium 5">
+<sample name="procambium_6" />
+</tissue>
+<tissue colorKey="#77AC07" name="procambium 6">
+<sample name="procambium_7" />
+</tissue>
+<tissue colorKey="#77AC08" name="procambium 7">
+<sample name="procambium_8" />
+</tissue>
+<tissue colorKey="#77AC09" name="procambium 8">
+<sample name="procambium_9" />
+</tissue>
+<tissue colorKey="#77AD02" name="quiescent center 1">
+<sample name="qc_2" />
+</tissue>
+<tissue colorKey="#77AE0A" name="xylem 9">
+<sample name="xylem_10" />
+</tissue>
+<tissue colorKey="#77AE0B" name="xylem 10">
+<sample name="xylem_11" />
+</tissue>
+<tissue colorKey="#77AE0C" name="xylem 11">
+<sample name="xylem_12" />
+</tissue>
+<tissue colorKey="#77AE0D" name="xylem 12">
+<sample name="xylem_13" />
+</tissue>
+<tissue colorKey="#77AE02" name="xylem 1">
+<sample name="xylem_2" />
+</tissue>
+<tissue colorKey="#77AE03" name="xylem 2">
+<sample name="xylem_3" />
+</tissue>
+<tissue colorKey="#77AE04" name="xylem 3">
+<sample name="xylem_4" />
+</tissue>
+<tissue colorKey="#77AE05" name="xylem 4">
+<sample name="xylem_5" />
+</tissue>
+<tissue colorKey="#77AE06" name="xylem 5">
+<sample name="xylem_6" />
+</tissue>
+<tissue colorKey="#77AE07" name="xylem 6">
+<sample name="xylem_7" />
+</tissue>
+<tissue colorKey="#77AE08" name="xylem 7">
+<sample name="xylem_8" />
+</tissue>
+<tissue colorKey="#77AE09" name="xylem 8">
+<sample name="xylem_9" />
+</tissue>
+<tissue colorKey="#77AF0A" name="xylem pole pericycle 9">
+<sample name="xylemPole_10" />
+</tissue>
+<tissue colorKey="#77AF0B" name="xylem pole pericycle 10">
+<sample name="xylemPole_11" />
+</tissue>
+<tissue colorKey="#77AF0C" name="xylem pole pericycle 11">
+<sample name="xylemPole_12" />
+</tissue>
+<tissue colorKey="#77AF0D" name="xylem pole pericycle 12">
+<sample name="xylemPole_13" />
+</tissue>
+<tissue colorKey="#77AF02" name="xylem pole pericycle 1">
+<sample name="xylemPole_2" />
+</tissue>
+<tissue colorKey="#77AF03" name="xylem pole pericycle 2">
+<sample name="xylemPole_3" />
+</tissue>
+<tissue colorKey="#77AF04" name="xylem pole pericycle 3">
+<sample name="xylemPole_4" />
+</tissue>
+<tissue colorKey="#77AF05" name="xylem pole pericycle 4">
+<sample name="xylemPole_5" />
+</tissue>
+<tissue colorKey="#77AF06" name="xylem pole pericycle 5">
+<sample name="xylemPole_6" />
+</tissue>
+<tissue colorKey="#77AF07" name="xylem pole pericycle 6">
+<sample name="xylemPole_7" />
+</tissue>
+<tissue colorKey="#77AF08" name="xylem pole pericycle 7">
+<sample name="xylemPole_8" />
+</tissue>
+<tissue colorKey="#77AF09" name="xylem pole pericycle 8">
+<sample name="xylemPole_9" />
+</tissue>
+
+<tissue colorKey="#7BFF00" name="Phloem Pole Pericycle, young (average of levels in PPP cells in sections 1-6)">
+<sample name="phloemPole_2" />
+<sample name="phloemPole_3" />
+<sample name="phloemPole_4" />
+<sample name="phloemPole_5" />
+<sample name="phloemPole_6" />
+<sample name="phloemPole_7" />
+</tissue>
+<tissue colorKey="#FFFF44" name="Xylem Pole Pericycle, young (average of levels in XPP cells in sections 1-6)">
+<sample name="xylemPole_2" />
+<sample name="xylemPole_3" />
+<sample name="xylemPole_4" />
+<sample name="xylemPole_5" />
+<sample name="xylemPole_6" />
+<sample name="xylemPole_7" />
+</tissue>
+<tissue colorKey="#FFAF00" name="Phloem companion cells, young (average of levels in PC cells in sections 2-6)">
+<sample name="phloem_3" />
+<sample name="phloem_4" />
+<sample name="phloem_5" />
+<sample name="phloem_6" />
+<sample name="phloem_7" />
+</tissue>
+<tissue colorKey="#FF4400" name="Protophloem and Metaphloem,  young (average of phloem levels in sections 2-6)">
+<sample name="metaProtoPhloem_3" />
+<sample name="metaProtoPhloem_4" />
+<sample name="metaProtoPhloem_5" />
+<sample name="metaProtoPhloem_6" />
+<sample name="metaProtoPhloem_7" />
+</tissue>
+<tissue colorKey="#D010C1" name="Procambium, young (average of procambium levels in sections 1-6)">
+<sample name="procambium_2" />
+<sample name="procambium_3" />
+<sample name="procambium_4" />
+<sample name="procambium_5" />
+<sample name="procambium_6" />
+<sample name="procambium_7" />
+</tissue>
+<tissue colorKey="#0044FF" name="Xylem, young (average of xylem levels in sections 1-6)">
+<sample name="xylem_2" />
+<sample name="xylem_3" />
+<sample name="xylem_4" />
+<sample name="xylem_5" />
+<sample name="xylem_6" />
+<sample name="xylem_7" />
+</tissue>
+
+<tissue colorKey="#7DFF00" name="Phloem Pole Pericycle, old (average of levels in PPP cells in sections 7-12)">
+<sample name="phloemPole_8" />
+<sample name="phloemPole_9" />
+<sample name="phloemPole_10" />
+<sample name="phloemPole_11" />
+<sample name="phloemPole_12" />
+<sample name="phloemPole_13" />
+</tissue>
+<tissue colorKey="#FFFF22" name="Xylem Pole Pericycle, old (average of levels in XPP cells in sections 7-12)">
+<sample name="xylemPole_8" />
+<sample name="xylemPole_9" />
+<sample name="xylemPole_10" />
+<sample name="xylemPole_11" />
+<sample name="xylemPole_12" />
+<sample name="xylemPole_13" />
+</tissue>
+<tissue colorKey="#FFBF00" name="Phloem companion cells, old (average of levels in PC cells in sections 7-12)">
+<sample name="phloem_8" />
+<sample name="phloem_9" />
+<sample name="phloem_10" />
+<sample name="phloem_11" />
+<sample name="phloem_12" />
+<sample name="phloem_13" />
+</tissue>
+<tissue colorKey="#FF3300" name="Protophloem and Metaphloem,  old (average of phloem levels in sections 7-12)">
+<sample name="metaProtoPhloem_8" />
+<sample name="metaProtoPhloem_9" />
+<sample name="metaProtoPhloem_10" />
+<sample name="metaProtoPhloem_11" />
+<sample name="metaProtoPhloem_12" />
+<sample name="metaProtoPhloem_13" />
+</tissue>
+<tissue colorKey="#D010B1" name="Procambium, old (average of procambium levels in sections 7-12)">
+<sample name="procambium_8" />
+<sample name="procambium_9" />
+<sample name="procambium_10" />
+<sample name="procambium_11" />
+<sample name="procambium_12" />
+<sample name="procambium_13" />
+</tissue>
+<tissue colorKey="#0033FF" name="Xylem, old (average of xylem levels in sections 7-12)">
+<sample name="xylem_8" />
+<sample name="xylem_9" />
+<sample name="xylem_10" />
+<sample name="xylem_11" />
+<sample name="xylem_12" />
+<sample name="xylem_13" />
+</tissue>
+
+</group>
+
+</view>
+</specimen>
+

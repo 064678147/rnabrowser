@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Arabidopsis">
+<view name="all" class="" db="arabidopsis_ecotypes" img="Natural_Variation_image.tga">
+<coords graphX="25" graphY="299" graphWidth="61" graphHeight="87" legendX="30" legendY="316"/>
+<extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="670,0,994,0,994,33,670,33"/>
+<extra name="See info on Bay-0 (CS954) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS954" parameters="No" coords="407,620,467,620,467,655,407,655"/>
+<extra name="See info on C24 (CS906) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS906" parameters="No" coords="10,99,70,99,70,134,10,134"/>
+<extra name="See info on Col-0 (N1092) at NASC" link="http://arabidopsis.info/StockInfo?NASC_id=1092" parameters="No" coords="311,99,371,99,371,134,311,134"/>
+<extra name="See info on Cvi (CS8580) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS8580" parameters="No" coords="307,620,367,620,367,655,307,655"/>
+<extra name="See info on Est (CS6173) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6173" parameters="No" coords="651,99,711,99,711,134,651,134"/>
+<extra name="See info on Kin-0 (CS6755) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6755" parameters="No" coords="397,99,457,99,457,134,397,134"/>
+<extra name="See info on Ler-2 (CS8581) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS8581" parameters="No" coords="492,620,552,620,552,655,492,655"/>
+<extra name="See info on Nd-1 (CS1636) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS1636" parameters="No" coords="493,730,553,730,553,765,493,765"/>
+<extra name="See info on Shahdara (CS6180) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS929" parameters="No" coords="912,484,972,484,972,519,912,519"/>
+<extra name="See info on Van-0 (CS6884) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6884" parameters="No" coords="220,99,280,99,280,134,220,134"/>
+<extra name="See info on Ak-1 (CS6602) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6602" parameters="No" coords="911,730,971,730,971,765,911,765"/>
+<extra name="See info on Bla-5 (CS6620) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6620" parameters="No" coords="134,620,194,620,194,655,134,655"/>
+<extra name="See info on Can-0 (CS6660) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6660" parameters="No" coords="213,620,273,620,273,655,213,655"/>
+<extra name="See info on Cen-0 (CS6661) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6661" parameters="No" coords="485,99,545,99,545,134,485,134"/>
+<extra name="See info on CIBC10 (CS22229) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS22229" parameters="No" coords="9,620,69,620,69,655,9,655"/>
+<extra name="See info on Dra-1 (CS6686) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6686" parameters="No" coords="912,212,972,212,972,247,912,247"/>
+<extra name="See info on Enkheim-T (CS6176) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6176" parameters="No" coords="912,373,972,373,972,408,912,408"/>
+<extra name="See info on Er-0 (CS6698) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6698" parameters="No" coords="577,620,637,620,637,655,577,655"/>
+<extra name="See info on Fr-2 (CS6708) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6708" parameters="No" coords="662,620,722,620,722,655,662,655"/>
+<extra name="See info on GOT1 (CS22277) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS22277" parameters="No" coords="662,730,722,730,722,765,662,765"/>
+<extra name="See info on HR-5 (CS22205) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS22205" parameters="No" coords="9,730,69,730,69,765,9,765"/>
+<extra name="See info on Is-0 (CS6741) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6741" parameters="No" coords="576,730,636,730,636,765,576,765"/>
+<extra name="See info on Li-2:1 (CS6772) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6772" parameters="No" coords="751,620,811,620,811,655,751,655"/>
+<extra name="See info on M7323S (CS6184) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6184" parameters="No" coords="78,99,138,99,138,134,78,134"/>
+<extra name="See info on MS-0 (CS6797) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6797" parameters="No" coords="739,99,799,99,799,134,739,134"/>
+<extra name="See info on NFE1 (CS22163) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS22163" parameters="No" coords="9,485,69,485,69,520,9,520"/>
+<extra name="See info on Nok-1 (CS6808) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6808" parameters="No" coords="568,99,628,99,628,134,568,134"/>
+<extra name="See info on Nw-1 (CS6812) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6812" parameters="No" coords="751,730,811,730,811,765,751,765"/>
+<extra name="See info on Old-2 (CS6821) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6821" parameters="No" coords="831,620,891,620,891,655,831,655"/>
+<extra name="See info on Ove-0 (CS6823) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6823" parameters="No" coords="910,620,970,620,970,655,910,655"/>
+<extra name="See info on Se-0 (CS6852) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6852" parameters="No" coords="214,730,274,730,274,765,214,765"/>
+<extra name="See info on Sf-2e (CS6857) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6857" parameters="No" coords="134,730,194,730,194,765,134,765"/>
+<extra name="See info on Ta-0 (CS6867) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6867" parameters="No" coords="911,99,971,99,971,134,911,134"/>
+<extra name="See info on Uk-3 (CS6880) at NASC" link="http://arabidopsis.info/MultiResult?abrc_code=CS6880" parameters="No" coords="832,730,892,730,892,765,832,765"/>
+
+<group name="Natural Variation Set">
+<control sample="ATGE_113_A" />
+<control sample="ATGE_113_C" />
+<control sample="ATGE_113_D" />
+<tissue colorKey="#99FF12" name="Bay-0 (CS6608) from Bayreuth, Germany. Longitude/Latitude/Elevation: E11/N50 at ~300m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="407,656,467,656,467,721,407,721"/>
+<sample name="ATGE_111_A" /><sample name="ATGE_111_B" /><sample name="ATGE_111_C" />
+</tissue>
+<tissue colorKey="#99FF33" name="C24 (CS906) from unknown.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="10,135,70,135,70,200,10,200"/>
+<sample name="ATGE_112_A" /><sample name="ATGE_112_C" /><sample name="ATGE_112_D" />
+</tissue>
+<tissue colorKey="#99CC33" name="Col-0 (N1092) from Columbia, Missouri, USA. Longitude/Latitude/Elevation: W93/N38 at 1-100m. Temp in C (Spr/Aut):15-16/21-2, Precipitation in mm (Spr/Aut):60-70/30-40.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="311,135,371,135,371,200,311,200"/>
+<sample name="ATGE_113_A" /><sample name="ATGE_113_C" /><sample name="ATGE_113_D" />
+</tissue>
+<tissue colorKey="#99CC66" name="Cvi-1 (CS8580) from Cape Verde Islands. Longitude/Latitude/Elevation: W24/N16 at 1-100m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="307,656,367,656,367,721,307,721"/>
+<sample name="ATGE_114_A" /><sample name="ATGE_114_B" /><sample name="ATGE_114_C" />
+</tissue>
+<tissue colorKey="#336633" name="Est (CS6173) from Estonia. Longitude/Latitude/Elevation: E25/N59 at 100-200m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="651,135,711,135,711,200,651,200"/>
+<sample name="ATGE_115_A" /><sample name="ATGE_115_B" /><sample name="ATGE_115_D" />
+</tissue>
+<tissue colorKey="#CCFFCC" name="Kin-0 (CS6755) from Kindalville, Michigan, USA. Longitude/Latitude/Elevation: W85/N43 at 200-300m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="397,135,457,135,457,200,397,200"/>
+<sample name="ATGE_116_A" /><sample name="ATGE_116_B" /><sample name="ATGE_116_C" />
+</tissue>
+<tissue colorKey="#66CC66" name="Ler-2 (CS8581) from Landsberg, Germany. Longitude/Latitude/Elevation: E15/N53 at 100-200m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="492,656,552,656,552,721,492,721"/>
+<sample name="ATGE_117_B" /><sample name="ATGE_117_C" /><sample name="ATGE_117_D" />
+</tissue>
+<tissue colorKey="#006600" name="Nd-1 (CS1636) from Niederzenz, Germany. Longitude/Latitude/Elevation: at 200-300m. Temp in C (Spr/Aut):5-6/9-10, Precipitation in mm (Spr/Aut):20-30/30-40.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="493,766,553,766,553,831,493,831"/>
+<sample name="ATGE_118_A" /><sample name="ATGE_118_B" /><sample name="ATGE_118_C" />
+</tissue>
+<tissue colorKey="#00CC00" name="Sha (CS6180) from Pamiro-Alay, Tajikistan. Longitude/Latitude/Elevation: E71/N39 at 3400m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="912,520,972,520,972,585,912,585"/>
+<sample name="ATGE_119_A" /><sample name="ATGE_119_C" /><sample name="ATGE_119_D" />
+</tissue>
+<tissue colorKey="#00FF00" name="Van-0 (CS6884) from Vancouver, BC., Canada. Longitude/Latitude/Elevation: W123/N49 at 1-100m. Temp in C (Spr/Aut):2-9/10-18.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803961"/>
+<area coords="220,135,280,135,280,200,220,200"/>
+<sample name="ATGE_120_A" /><sample name="ATGE_120_B" /><sample name="ATGE_120_C" />
+</tissue>
+<tissue colorKey="#397721" name="Ak-1 (CS6602) from Achkarren, Germany. Longitude/Latitude/Elevation: E8/N48 at 200m. Temp in C (Spr/Aut):7-8/11-12, Precipitation in mm (Spr/Aut):50-60/50-60.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="911,766,971,766,971,831,911,831"/>
+<sample name="ATGE_121_A" />
+</tissue>
+<tissue colorKey="#5ED258" name="Bla-5 (CS6620) from Blanes, Spain. Longitude/Latitude/Elevation: E3/N41 at 50m. Temp in C (Spr/Aut):17-18/11-12, Precipitation in mm (Spr/Aut):40-50/40-50.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="134,656,194,656,194,721,134,721"/>
+<sample name="ATGE_124_A" />
+</tissue>
+<tissue colorKey="#65A824" name="Can-0 (CS6660) from Canary Islands, Spain. Longitude/Latitude/Elevation: W15/N28 at 1260m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="213,656,273,656,273,721,213,721"/>
+<sample name="ATGE_125_A" />
+</tissue>
+<tissue colorKey="#406831" name="Cen-0 (CS6661) from Caen, France. Longitude/Latitude/Elevation: W0/N49 at 1-100m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="485,135,545,135,545,200,485,200"/>
+<sample name="ATGE_126_A" />
+</tissue>
+<tissue colorKey="#439C20" name="CIBC10 (CS22229) from United Kingdom.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="9,656,69,656,69,721,9,721"/>
+<sample name="ATGE_127_A" />
+</tissue>
+<tissue colorKey="#84F159" name="Dra-1 (CS6686) from Drahonin, Czech Republic. Longitude/Latitude/Elevation: E16/N49 at 450m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="912,248,972,248,972,313,912,313"/>
+<sample name="ATGE_128_A" />
+</tissue>
+<tissue colorKey="#97F693" name="En-T (CS6176) from Tadjikistan.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="912,409,972,409,972,474,912,474"/>
+<sample name="ATGE_129_A" />
+</tissue>
+<tissue colorKey="#C9F8B6" name="Er-0 (CS6698) from Erlangen, Germany. Longitude/Latitude/Elevation: E11/N49 at 200-300m. Temp in C (Spr/Aut):5-6/9-10, Precipitation in mm (Spr/Aut):30-40/30-40.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="577,656,637,656,637,721,577,721"/>
+<sample name="ATGE_130_A" />
+</tissue>
+<tissue colorKey="#7AA06B" name="Fr-2 (CS6708) from Frankfurt, Germany. Longitude/Latitude/Elevation: E8/N50 at 0-100m. Temp in C (Spr/Aut):7-8/9-10, Precipitation in mm (Spr/Aut):20-30/30-40.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="662,656,722,656,722,721,662,721"/>
+<sample name="ATGE_131_A" />
+</tissue>
+<tissue colorKey="#A9CDA7" name="GOT1 (CS22277) from Goettingen, Germany. Longitude/Latitude: E10/N51.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="662,766,722,766,722,831,662,831"/>
+<sample name="ATGE_132_A" />
+</tissue>
+<tissue colorKey="#BCF882" name="HR-5 (CS22205) from United Kingdom.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="9,766,69,766,69,831,9,831"/>
+<sample name="ATGE_133_A" />
+</tissue>
+<tissue colorKey="#088F01" name="Is-0 (CS6741) from Isenburg, Germany. Longitude/Latitude/Elevation: E7/N50 at 100-200m. Temp in C (Spr/Aut):7-8/11-12.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="576,766,636,766,636,831,576,831"/>
+<sample name="ATGE_134_A" />
+</tissue>
+<tissue colorKey="#309608" name="Li-2:1 (CS6772) from Limburg, Germany. Longitude/Latitude/Elevation: E8/N50 at 100-200m. Temp in C (Spr/Aut):3-4/9-10, Precipitation in mm (Spr/Aut):30-40/30-40.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="751,656,811,656,811,721,751,721"/>
+<sample name="ATGE_136_A" />
+</tissue>
+<tissue colorKey="#5BE426" name="M7323S (CS6184) from unknown.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="78,135,138,135,138,200,78,200"/>
+<sample name="ATGE_141_A" />
+</tissue>
+<tissue colorKey="#81CB64" name="MS-0 (CS6797) from Moscow, Russia.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="739,135,799,135,799,200,739,200"/>
+<sample name="ATGE_142_A" />
+</tissue>
+<tissue colorKey="#44C213" name="NFE1 (CS22163) from United Kingdom.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="9,521,69,521,69,586,9,586"/>
+<sample name="ATGE_138_A" />
+</tissue>
+<tissue colorKey="#58F719" name="Nok-1 (CS6808) from Noordwijk, Netherlands. Longitude/Latitude/Elevation: E4/N52 at 0-100m. Temp in C (Spr/Aut):3-4/13-14.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="568,135,628,135,628,200,568,200"/>
+<sample name="ATGE_139_A" />
+</tissue>
+<tissue colorKey="#5AF883" name="Nw-1 (CS6812) from Neuweilnau, Germany. Longitude/Latitude/Elevation: E8/N50 at 100-200m. Temp in C (Spr/Aut):5-6/9-10.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="751,766,811,766,811,831,751,831"/>
+<sample name="ATGE_140_A" />
+</tissue>
+<tissue colorKey="#80F552" name="Old-2 (CS6821) from Oldenburg, Germany. Longitude/Latitude/Elevation: E8/N53 at 1-100m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="831,656,891,656,891,721,831,721"/>
+<sample name="ATGE_144_A" />
+</tissue>
+<tissue colorKey="#99FE36" name="Ove-0 (CS6823) from Ovelgoenne, Germany. Longitude/Latitude/Elevation: E8/N53 at 1-100m. Temp in C (Spr/Aut):5-6/9-10.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="910,656,970,656,970,721,910,721"/>
+<sample name="ATGE_145_A" />
+</tissue>
+<tissue colorKey="#7FD42C" name="Se-0 (CS6852) from San Eleno, Spain. Longitude/Latitude/Elevation: E2/N41 at 0-100m.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="214,766,274,766,274,831,214,831"/>
+<sample name="ATGE_146_A" />
+</tissue>
+<tissue colorKey="#688F43" name="Sf-2 (CS6857) from San Feliu, Spain. Longitude/Latitude/Elevation: E3/N41 at 1-100m. Temp in C (Spr/Aut):11-12/19-20.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="134,766,194,766,194,831,134,831"/>
+<sample name="ATGE_147_A" />
+</tissue>
+<tissue colorKey="#82AB80" name="Ta-0 (CS6867) from Tabor, Czech Republic. Longitude/Latitude/Elevation: E14/N49 at 400-500m. Temp in C (Spr/Aut):3-4/9-10.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="911,135,971,135,971,200,911,200"/>
+<sample name="ATGE_148_A" />
+</tissue>
+<tissue colorKey="#12B33C" name="Uk-3 (CS6880) from Umkirch, Germany. Longitude/Latitude/Elevation: E7/N48 at 200-300m. Temp in C (Spr/Aut):7-8/11-12.">
+<link url="http://www.arabidopsis.org/servlets/TairObject?type=bio_sample_collection&amp;id=1008803992"/>
+<area coords="832,766,892,766,892,831,832,831"/>
+<sample name="ATGE_149_A" />
+</tissue>
+</group>
+</view>
+</specimen>

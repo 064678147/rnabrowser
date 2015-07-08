@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE info SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_info.dtd">
+<info>
+	<service name="Expressologs" type="JSON">
+		<connect
+			url='http://bar.utoronto.ca/webservices/get_expressologs.php?request=[{"gene":"GENE"}]'></connect>
+		<icon filename="expressolog.png"></icon>
+		<link url="http://bar.utoronto.ca/expressolog_treeviewer/cgi-bin/expressolog_treeviewer.cgi?primaryGene=GENE&amp;species=Rice&amp;dataset=Developmental&amp;checkedspecies=[arabidopsis,poplar,medicago,soybean,rice,barley,maize]" /><noresult_regex pattern='^\{.*:\[\]\}$' />
+	</service>
+	<service name="Interactors" type="JSON">
+		<connect
+			url='http://bar.utoronto.ca/webservices/aiv/get_interactions.php?request=[{"agi":"GENE"}]'></connect>
+		<icon filename="interactions.png"></icon>
+		<link url="http://bar.utoronto.ca/interactions/cgi-bin/rice_interactions_viewer.cgi?input=GENE" /><noresult_regex pattern='^\{.*:\[\]\}$' />
+	</service></info>
+	

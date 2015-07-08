@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <specimen name="Barley">
+- <view name="all" db="barley_mas" img="barley_mas_image.tga">
+  <coords graphX="12" graphY="127" graphWidth="107" graphHeight="70" legendX="0" legendY="128" /> 
+    <extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="187,8,312,8,312,25,188,25" /> 
+  <extra name="To A. Druka et al. reference" link="http://www.springerlink.com/content/d3538610254n7252/" parameters="No" coords="463,553,771,553,772,567,463,567" />
+<extra name="To Abebe et al. reference" link="http://plantgenome.scijournals.org/content/2/3/247" parameters="No" coords="349,587,608,588,608,599,349,599" />
+
+- <group name="Seedling">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#31891f" name="Morex Leaf">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="54,153,162,147,84,267,54,278" /> 
+  <sample name="MX_Leafrep1" /> 
+  <sample name="MX_Leafrep2" />
+  <sample name="MX_Leafrep3" /> 
+  </tissue>
+- <tissue colorKey="#31891f" name="Golden Promise Leaf">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="348,64,461,66,378,183,342,193" /> 
+  <sample name="GP_Leafrep1" /> 
+  <sample name="GP_Leafrep2" />
+  <sample name="GP_Leafrep3" /> 
+  </tissue>
+- <tissue colorKey="#5a2d20" name="Morex Crown">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="69,273,89,265,93,274,75,278" /> 
+  <sample name="MX_Crownrep1" /> 
+  <sample name="MX_Crownrep2" />
+  <sample name="MX_Crownrep3" /> 
+  </tissue>
+- <tissue colorKey="#5a2d20" name="Golden Promise Crown">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="361,188,387,183,387,192,367,193" /> 
+  <sample name="GP_Crownrep1" /> 
+  <sample name="GP_Crownrep2" />
+  <sample name="GP_Crownrep3" /> 
+  </tissue>
+- <tissue colorKey="#5a2d20" name="Morex Root">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="75,278,93,274,150,350,35,353" /> 
+  <sample name="MX_Rootrep1" /> 
+  <sample name="MX_Rootrep2" />
+  <sample name="MX_Rootrep3" /> 
+  </tissue>
+- <tissue colorKey="#5a2d20" name="Golden Promise Root">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="367,193,387,192,445,270,342,270" /> 
+  <sample name="GP_Rootrep1" /> 
+  <sample name="GP_Rootrep2" />
+  <sample name="GP_Rootrep3" /> 
+  </tissue>
+  </group>
+- <group name="Germinating Seedling">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#68975a" name="Morex Coleoptile">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="207,145,263,146,260,196,202,196" /> 
+  <sample name="MX_Coleoptilerep1" /> 
+  <sample name="MX_Coleoptilerep2" />
+  <sample name="MX_Coleoptilerep3" /> 
+  </tissue>
+- <tissue colorKey="#68975a" name="Golden Promise Coleoptile">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="501,63,562,64,548,115,498,115" /> 
+  <sample name="GP_Coleoptilerep1" /> 
+  <sample name="GP_Coleoptilerep2" />
+  <sample name="GP_Coleoptilerep3" /> 
+  </tissue>
+- <tissue colorKey="#91d27e" name="Morex Mesocotyl">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="138,196,267,196,226,247,200,243" /> 
+  <sample name="MX_Embryorep1" /> 
+  <sample name="MX_Embryorep2" />
+  <sample name="MX_Embryorep3" /> 
+  </tissue>
+- <tissue colorKey="#91d27e" name="Golden Promise Mesocotyl">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="410,115,566,115,521,166,495,162" /> 
+  <sample name="GP_Embryorep1" /> 
+  <sample name="GP_Embryorep2" />
+  <sample name="GP_Embryorep3" /> 
+  </tissue>
+- <tissue colorKey="#ecfde7" name="Morex Radicle">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="108,216,226,247,349,128,265,455" /> 
+  <sample name="MX_Radiclerep1" /> 
+  <sample name="MX_Radiclerep2" />
+  <sample name="MX_Radiclerep3" /> 
+  </tissue>
+- <tissue colorKey="#ecfde7" name="Golden Promise Radicle">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="397,129,520,166,681,35,494,351" /> 
+  <sample name="GP_Radiclerep1" /> 
+  <sample name="GP_Radiclerep2" />
+  <sample name="GP_Radiclerep3" /> 
+  </tissue>
+  </group>
+- <group name="Caryopsis without Embryo">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#dfe06b" name="Morex Caryopsis without Embryo">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="62,397,117,398,117,508,61,508" /> 
+  <sample name="MX_Endosperm22DAPrep1" /> 
+  <sample name="MX_Endosperm22DAPrep2" />
+  <sample name="MX_Endosperm22DAPrep3" /> 
+  </tissue>
+  </group>
+- <group name="Embryo">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#e8e16d" name="Embryo 22 DAP">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="149,420,234,420,233,487,150,487" /> 
+  <sample name="MX_Embryo22DAPrep1" /> 
+  <sample name="MX_Embryo22DAPrep2" /> 
+  <sample name="MX_Embryo22DAPrep3" />
+  </tissue>
+- </group>
+- <group name="Caryopsis">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#8df2dc" name="Caryopsis 5 DAP">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="286,410,334,410,334,476,286,476" /> 
+  <sample name="MX_Caryopsis5DAPrep1" /> 
+  <sample name="MX_Caryopsis5DAPrep2" />
+  <sample name="MX_Caryopsis5DAPrep3" /> 
+  </tissue>
+- <tissue colorKey="#39e7c1" name="Caryopsis 10 DAP">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="355,402,414,402,414,513,354,513" /> 
+  <sample name="MX_Caryopsis10DAPrep1" /> 
+  <sample name="MX_Caryopsis10DAPrep2" />
+  <sample name="MX_Caryopsis10DAPrep3" /> 
+  </tissue>
+- <tissue colorKey="#1eb896" name="Caryopsis 16 DAP">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="431,399,498,399,499,546,431,546" /> 
+  <sample name="MX_Caryopsis16DAPrep1" /> 
+  <sample name="MX_Caryopsis16DAPrep2" />
+  <sample name="MX_Caryopsis16DAPrep3" /> 
+  </tissue>
+- </group>
+- <group name="Floral Bracts">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#2bd73f" name="Floral Bracts">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="577,395,631,395,631,543,577,544" />
+  <sample name="MX_FloralBractsrep1" /> 
+  <sample name="MX_FloralBractsrep2" />
+  <sample name="MX_FloralBractsrep3" /> 
+  </tissue>
+- </group>
+- <group name="Anthers">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#ffe503" name="Anthers">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="660,394,785,394,784,544,660,544" /> 
+  <sample name="MX_Anthersrep1" /> 
+  <sample name="MX_Anthersrep2" />
+  <sample name="MX_Anthersrep3" /> 
+  </tissue>
+- </group>
+- <group name="Pistil">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#47b344" name="Pistil">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="560,274,656,274,656,365,560,364" />
+  <sample name="MX_Pistilrep1" /> 
+  <sample name="MX_Pistilrep2" />
+  <sample name="MX_Pistilrep3" /> 
+  </tissue>
+- </group>
+- <group name="Immature Inflorescence">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#f6ebc4" name="Immature Inflorescence">
+  <link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+  <area coords="680,239,757,239,757,370,680,369" /> 
+  <sample name="MX_Inflorescencerep1" /> 
+  <sample name="MX_Inflorescencerep2" />
+  <sample name="MX_Inflorescencerep3" /> 
+  </tissue>
+- </group>
+- <group name="Spike">
+  <control sample="BARLEY_CTRL" /> 
+  <control sample="BARLEY_CTRL" /> 
+- <tissue colorKey="#81b3fc" name="Lemma">
+  <link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16754" /> 
+  <area coords="737,104,757,81,749,193,686,194" /> 
+  <sample name="Lemma_Rep1" /> 
+  <sample name="Lemma_Rep2" />
+  <sample name="Lemma_Rep3" /> 
+  </tissue>
+- <tissue colorKey="#4690fd" name="Palea">
+  <link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16754" /> 
+  <area coords="683,72,703,71,718,140,695,187" /> 
+  <sample name="Palea_Rep1" /> 
+  <sample name="Palea_Rep2" />
+  <sample name="Palea_Rep3" /> 
+  </tissue>
+- <tissue colorKey="#0066ff" name="Awn">
+  <link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16754" /> 
+  <area coords="736,49,758,49,750,87,738,102" /> 
+  <sample name="Awn_Rep1" /> 
+  <sample name="Awn_Rep2" />
+  <sample name="Awn_Rep3" /> 
+  </tissue>
+- </group>
+- </view>
+  </specimen>

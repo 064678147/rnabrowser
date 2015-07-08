@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Arabidopsis">
+<view name="all" class="" db="light_series" img="Light_Series_image.tga">
+<coords graphX="594" graphY="737" graphWidth="61" graphHeight="87" legendX="700" legendY="606"/>
+<extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="670,0,994,0,994,33,670,33"/>
+
+<group name="LLHC_00">
+<control sample="LLHC_00"/>
+<tissue colorKey='#CCFFFF' name='Continuous light with temperature cycles, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,116,210,116,210,176,160,176'/>
+<sample name='LLHC_00' />
+</tissue>
+<tissue colorKey='#BBFFFF' name='Continuous light with temperature cycles, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,116,267,116,267,176,217,176'/>
+<sample name='LLHC_04' />
+</tissue>
+<tissue colorKey='#AAFFFF' name='Continuous light with temperature cycles, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,116,318,116,318,176,268,176'/>
+<sample name='LLHC_08' />
+</tissue>
+<tissue colorKey='#99FFFF' name='Continuous light with temperature cycles, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,116,375,116,375,176,325,176'/>
+<sample name='LLHC_12' />
+</tissue>
+<tissue colorKey='#88FFFF' name='Continuous light with temperature cycles, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,116,429,116,429,176,379,176'/>
+<sample name='LLHC_16' />
+</tissue>
+<tissue colorKey='#77FFFF' name='Continuous light with temperature cycles, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,116,484,116,484,176,434,176'/>
+<sample name='LLHC_20' />
+</tissue>
+<tissue colorKey='#66FFFF' name='Continuous light with temperature cycles, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,116,539,116,539,176,489,176'/>
+<sample name='LLHC_24' />
+</tissue>
+<tissue colorKey='#55FFFF' name='Continuous light with temperature cycles, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,116,594,116,594,176,544,176'/>
+<sample name='LLHC_28' />
+</tissue>
+<tissue colorKey='#44FFFF' name='Continuous light with temperature cycles, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,116,649,116,649,176,599,176'/>
+<sample name='LLHC_32' />
+</tissue>
+<tissue colorKey='#33FFFF' name='Continuous light with temperature cycles, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,116,704,116,704,176,654,176'/>
+<sample name='LLHC_36' />
+</tissue>
+<tissue colorKey='#22FFFF' name='Continuous light with temperature cycles, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,116,759,116,759,176,709,176'/>
+<sample name='LLHC_40' />
+</tissue>
+<tissue colorKey='#11FFFF' name='Continuous light with temperature cycles, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,116,814,116,814,176,764,176'/>
+<sample name='LLHC_44' />
+</tissue>
+</group>
+
+<group name="LDHC_00">
+<control sample="LDHC_00"/>
+<tissue colorKey='#CCEEEE' name='12h light-dark cycle with concommitant temperature cycle, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,235,210,235,210,295,160,295'/>
+<sample name='LDHC_00' />
+</tissue>
+<tissue colorKey='#BBEEEE' name='12h light-dark cycle with concommitant temperature cycle, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,235,267,235,267,295,217,295'/>
+<sample name='LDHC_04' />
+</tissue>
+<tissue colorKey='#AAEEEE' name='12h light-dark cycle with concommitant temperature cycle, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,235,318,235,318,295,268,295'/>
+<sample name='LDHC_08' />
+</tissue>
+<tissue colorKey='#99EEEE' name='12h light-dark cycle with concommitant temperature cycle, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,235,375,235,375,295,325,295'/>
+<sample name='LDHC_12' />
+</tissue>
+<tissue colorKey='#88EEEE' name='12h light-dark cycle with concommitant temperature cycle, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,235,429,235,429,295,379,295'/>
+<sample name='LDHC_16' />
+</tissue>
+<tissue colorKey='#77EEEE' name='12h light-dark cycle with concommitant temperature cycle, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,235,484,235,484,295,434,295'/>
+<sample name='LDHC_20' />
+</tissue>
+<tissue colorKey='#66EEEE' name='12h light-dark cycle with concommitant temperature cycle, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,235,539,235,539,295,489,295'/>
+<sample name='LDHC_24' />
+</tissue>
+<tissue colorKey='#55EEEE' name='12h light-dark cycle with concommitant temperature cycle, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,235,594,235,594,295,544,295'/>
+<sample name='LDHC_28' />
+</tissue>
+<tissue colorKey='#44EEEE' name='12h light-dark cycle with concommitant temperature cycle, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,235,649,235,649,295,599,295'/>
+<sample name='LDHC_32' />
+</tissue>
+<tissue colorKey='#33EEEE' name='12h light-dark cycle with concommitant temperature cycle, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,235,704,235,704,295,654,295'/>
+<sample name='LDHC_36' />
+</tissue>
+<tissue colorKey='#22EEEE' name='12h light-dark cycle with concommitant temperature cycle, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,235,759,235,759,295,709,295'/>
+<sample name='LDHC_40' />
+</tissue>
+<tissue colorKey='#11EEEE' name='12h light-dark cycle with concommitant temperature cycle, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,235,814,235,814,295,764,295'/>
+<sample name='LDHC_44' />
+</tissue>
+</group>
+
+<group name="longday_00">
+<control sample="longday_00"/>
+<tissue colorKey='#CCDDDD' name='Long day grown plants, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,363,210,363,210,423,160,423'/>
+<sample name='longday_00' />
+</tissue>
+<tissue colorKey='#BBDDDD' name='Long day grown plants, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,363,267,363,267,423,217,423'/>
+<sample name='longday_04' />
+</tissue>
+<tissue colorKey='#AADDDD' name='Long day grown plants, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,363,318,363,318,423,268,423'/>
+<sample name='longday_08' />
+</tissue>
+<tissue colorKey='#99DDDD' name='Long day grown plants, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,363,375,363,375,423,325,423'/>
+<sample name='longday_12' />
+</tissue>
+<tissue colorKey='#88DDDD' name='Long day grown plants, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,363,429,363,429,423,379,423'/>
+<sample name='longday_16' />
+</tissue>
+<tissue colorKey='#77DDDD' name='Long day grown plants, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,363,484,363,484,423,434,423'/>
+<sample name='longday_20' />
+</tissue>
+<tissue colorKey='#66DDDD' name='Long day grown plants, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,363,539,363,539,423,489,423'/>
+<sample name='longday_24' />
+</tissue>
+<tissue colorKey='#55DDDD' name='Long day grown plants, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,363,594,363,594,423,544,423'/>
+<sample name='longday_28' />
+</tissue>
+<tissue colorKey='#44DDDD' name='Long day grown plants, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,363,649,363,649,423,599,423'/>
+<sample name='longday_32' />
+</tissue>
+<tissue colorKey='#33DDDD' name='Long day grown plants, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,363,704,363,704,423,654,423'/>
+<sample name='longday_36' />
+</tissue>
+<tissue colorKey='#22DDDD' name='Long day grown plants, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,363,759,363,759,423,709,423'/>
+<sample name='longday_40' />
+</tissue>
+<tissue colorKey='#11DDDD' name='Long day grown plants, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,363,814,363,814,423,764,423'/>
+<sample name='longday_44' />
+</tissue>
+</group>
+
+<group name="shortday_00">
+<control sample="shortday_00"/>
+<tissue colorKey='#DDCCCC' name='Short day grown plants, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,479,210,479,210,539,160,539'/>
+<sample name='shortday_00' />
+</tissue>
+<tissue colorKey='#BBCCCC' name='Short day grown plants, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,479,267,479,267,539,217,539'/>
+<sample name='shortday_04' />
+</tissue>
+<tissue colorKey='#AACCCC' name='Short day grown plants, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,479,318,479,318,539,268,539'/>
+<sample name='shortday_08' />
+</tissue>
+<tissue colorKey='#99CCCC' name='Short day grown plants, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,479,375,479,375,539,325,539'/>
+<sample name='shortday_12' />
+</tissue>
+<tissue colorKey='#88CCCC' name='Short day grown plants, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,479,429,479,429,539,379,539'/>
+<sample name='shortday_16' />
+</tissue>
+<tissue colorKey='#77CCCC' name='Short day grown plants, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,479,484,479,484,539,434,539'/>
+<sample name='shortday_20' />
+</tissue>
+<tissue colorKey='#66CCCC' name='Short day grown plants, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,479,539,479,539,539,489,539'/>
+<sample name='shortday_24' />
+</tissue>
+<tissue colorKey='#55CCCC' name='Short day grown plants, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,479,594,479,594,539,544,539'/>
+<sample name='shortday_28' />
+</tissue>
+<tissue colorKey='#44CCCC' name='Short day grown plants, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,479,649,479,649,539,599,539'/>
+<sample name='shortday_32' />
+</tissue>
+<tissue colorKey='#33CCCC' name='Short day grown plants, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,479,704,479,704,539,654,539'/>
+<sample name='shortday_36' />
+</tissue>
+<tissue colorKey='#22CCCC' name='Short day grown plants, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,479,759,479,759,539,709,539'/>
+<sample name='shortday_40' />
+</tissue>
+<tissue colorKey='#11CCCC' name='Short day grown plants, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,479,814,479,814,539,764,539'/>
+<sample name='shortday_44' />
+</tissue>
+</group>
+
+<group name="LDHH_ST_00">
+<control sample="LDHH_ST_00"/>
+<control sample="LDHH_ST_24"/>
+<tissue colorKey='#CCBBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 0h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='168,606,193,606,193,676,168,676'/>
+<sample name='LDHH_ST_00' /><sample name='LDHH_ST_24' />
+</tissue>
+<tissue colorKey='#AABBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 4h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='226,606,251,606,251,676,226,676'/>
+<sample name='LDHH_ST_04' /><sample name='LDHH_ST_28' />
+</tissue>
+<tissue colorKey='#99BBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 8h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='281,606,306,606,306,676,281,676'/>
+<sample name='LDHH_ST_08' /><sample name='LDHH_ST_32' />
+</tissue>
+<tissue colorKey='#88BBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 12h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='338,606,363,606,363,676,338,676'/>
+<sample name='LDHH_ST_12' /><sample name='LDHH_ST_36' />
+</tissue>
+<tissue colorKey='#77BBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 16h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='392,606,417,606,417,676,392,676'/>
+<sample name='LDHH_ST_16' /><sample name='LDHH_ST_40' />
+</tissue>
+<tissue colorKey='#66BBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 20h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='445,606,470,606,470,676,445,676'/>
+<sample name='LDHH_ST_20' /><sample name='LDHH_ST_44' />
+</tissue>
+<tissue colorKey='#CCBBBB' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 24h'>
+<link url='http://www.plantcell.org/cgi/content/full/17/12/3257'/>
+<area coords='500,606,525,606,525,676,500,676'/>
+<sample name='LDHH_ST_00' /><sample name='LDHH_ST_24' />
+</tissue>
+</group>
+
+<group name="LDHH_SM_00">
+<control sample="LDHH_SM_00"/>
+<control sample="LDHH_SM_24"/>
+<tissue colorKey='#CCAAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 0h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='168,720,193,720,193,790,168,790'/>
+<sample name='LDHH_SM_00' /><sample name='LDHH_SM_24' />
+</tissue>
+<tissue colorKey='#BBAAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 4h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='226,720,251,720,251,790,226,790'/>
+<sample name='LDHH_SM_04' /><sample name='LDHH_SM_28' />
+</tissue>
+<tissue colorKey='#99AAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 8h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='281,720,306,720,306,790,281,790'/>
+<sample name='LDHH_SM_08' /><sample name='LDHH_SM_32' />
+</tissue>
+<tissue colorKey='#88AAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 12h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='338,720,363,720,363,790,338,790'/>
+<sample name='LDHH_SM_12' /><sample name='LDHH_SM_36' />
+</tissue>
+<tissue colorKey='#77AAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 16h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='392,720,417,720,417,790,392,790'/>
+<sample name='LDHH_SM_16' /><sample name='LDHH_SM_40' />
+</tissue>
+<tissue colorKey='#66AAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 20h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='445,720,470,720,470,790,445,790'/>
+<sample name='LDHH_SM_20' /><sample name='LDHH_SM_44' />
+</tissue>
+<tissue colorKey='#CCAAAA' name='12h light-dark cycle, no temperature cycle, leaves from older plants, 24h'>
+<link url='http://www.plantphysiol.org/cgi/content/full/136/1/2687'/>
+<area coords='500,720,525,720,525,790,500,790'/>
+<sample name='LDHH_SM_00' /><sample name='LDHH_SM_24' />
+</tissue>
+</group>
+
+<group name="LL_LLHC_00">
+<control sample="LL_LLHC_00"/>
+<tissue colorKey='#CC9999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,875,210,875,210,935,160,935'/>
+<sample name='LL_LLHC_00' />
+</tissue>
+<tissue colorKey='#BB9999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,875,267,875,267,935,217,935'/>
+<sample name='LL_LLHC_04' />
+</tissue>
+<tissue colorKey='#AA9999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,875,318,875,318,935,268,935'/>
+<sample name='LL_LLHC_08' />
+</tissue>
+<tissue colorKey='#889999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,875,375,875,375,935,325,935'/>
+<sample name='LL_LLHC_12' />
+</tissue>
+<tissue colorKey='#779999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,875,429,875,429,935,379,935'/>
+<sample name='LL_LLHC_16' />
+</tissue>
+<tissue colorKey='#669999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,875,484,875,484,935,434,935'/>
+<sample name='LL_LLHC_20' />
+</tissue>
+<tissue colorKey='#559999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,875,539,875,539,935,489,935'/>
+<sample name='LL_LLHC_24' />
+</tissue>
+<tissue colorKey='#449999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,875,594,875,594,935,544,935'/>
+<sample name='LL_LLHC_28' />
+</tissue>
+<tissue colorKey='#339999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,875,649,875,649,935,599,935'/>
+<sample name='LL_LLHC_32' />
+</tissue>
+<tissue colorKey='#229999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,875,704,875,704,935,654,935'/>
+<sample name='LL_LLHC_36' />
+</tissue>
+<tissue colorKey='#119999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,875,759,875,759,935,709,935'/>
+<sample name='LL_LLHC_40' />
+</tissue>
+<tissue colorKey='#009999' name='Circadian experiment - plants grown under continuous light with temperature cycle, then sampled under continuous light and constant temperature, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,875,814,875,814,935,764,935'/>
+<sample name='LL_LLHC_44' />
+</tissue>
+</group>
+
+<group name="LL_LDHC_00">
+<control sample="LL_LDHC_00"/>
+<tissue colorKey='#CC8888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,1006,210,1006,210,1066,160,1066'/>
+<sample name='LL_LDHC_00' />
+</tissue>
+<tissue colorKey='#BB8888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,1006,267,1006,267,1066,217,1066'/>
+<sample name='LL_LDHC_04' />
+</tissue>
+<tissue colorKey='#AA8888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,1006,318,1006,318,1066,268,1066'/>
+<sample name='LL_LDHC_08' />
+</tissue>
+<tissue colorKey='#998888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,1006,375,1006,375,1066,325,1066'/>
+<sample name='LL_LDHC_12' />
+</tissue>
+<tissue colorKey='#778888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,1006,429,1006,429,1066,379,1066'/>
+<sample name='LL_LDHC_16' />
+</tissue>
+<tissue colorKey='#668888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,1006,484,1006,484,1066,434,1066'/>
+<sample name='LL_LDHC_20' />
+</tissue>
+<tissue colorKey='#558888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,1006,539,1006,539,1066,489,1066'/>
+<sample name='LL_LDHC_24' />
+</tissue>
+<tissue colorKey='#448888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,1006,594,1006,594,1066,544,1066'/>
+<sample name='LL_LDHC_28' />
+</tissue>
+<tissue colorKey='#338888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,1006,649,1006,649,1066,599,1066'/>
+<sample name='LL_LDHC_32' />
+</tissue>
+<tissue colorKey='#228888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,1006,704,1006,704,1066,654,1066'/>
+<sample name='LL_LDHC_36' />
+</tissue>
+<tissue colorKey='#118888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,1006,759,1006,759,1066,709,1066'/>
+<sample name='LL_LDHC_40' />
+</tissue>
+<tissue colorKey='#008888' name='Circadian experiment - plants grown under 12h light-dark cycle with a temperature cycle, then sampled under continuous light and constant temperature, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,1006,814,1006,814,1066,764,1066'/>
+<sample name='LL_LDHC_44' />
+</tissue>
+</group>
+
+<group name="LL_LDHH_SH_00">
+<control sample="LL_LDHH_SH_00"/>
+<tissue colorKey='#CC7777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 0h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='160,1134,210,1134,210,1194,160,1194'/>
+<sample name='LL_LDHH_SH_00' />
+</tissue>
+<tissue colorKey='#BB7777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 4h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='217,1134,267,1134,267,1194,217,1194'/>
+<sample name='LL_LDHH_SH_04' />
+</tissue>
+<tissue colorKey='#AA7777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 8h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='268,1134,318,1134,318,1194,268,1194'/>
+<sample name='LL_LDHH_SH_08' />
+</tissue>
+<tissue colorKey='#997777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 12h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='325,1134,375,1134,375,1194,325,1194'/>
+<sample name='LL_LDHH_SH_12' />
+</tissue>
+<tissue colorKey='#887777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 16h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='379,1134,429,1134,429,1194,379,1194'/>
+<sample name='LL_LDHH_SH_16' />
+</tissue>
+<tissue colorKey='#667777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 20h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='434,1134,484,1134,484,1194,434,1194'/>
+<sample name='LL_LDHH_SH_20' />
+</tissue>
+<tissue colorKey='#557777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 24h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='489,1134,539,1134,539,1194,489,1194'/>
+<sample name='LL_LDHH_SH_24' />
+</tissue>
+<tissue colorKey='#447777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 28h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='544,1134,594,1134,594,1194,544,1194'/>
+<sample name='LL_LDHH_SH_28' />
+</tissue>
+<tissue colorKey='#337777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 32h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='599,1134,649,1134,649,1194,599,1194'/>
+<sample name='LL_LDHH_SH_32' />
+</tissue>
+<tissue colorKey='#227777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 36h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='654,1134,704,1134,704,1194,654,1194'/>
+<sample name='LL_LDHH_SH_36' />
+</tissue>
+<tissue colorKey='#117777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 40h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='709,1134,759,1134,759,1194,709,1194'/>
+<sample name='LL_LDHH_SH_40' />
+</tissue>
+<tissue colorKey='#007777' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 44h'>
+<link url='http://dx.doi.org/10.1371/journal.pbio.0050222'/>
+<area coords='764,1134,814,1134,814,1194,764,1194'/>
+<sample name='LL_LDHH_SH_44' />
+</tissue>
+</group>
+
+<group name="LL_LDHH_AM_26">
+<control sample="LL_LDHH_AM_26"/>
+<tissue colorKey='#CC6666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 0h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='189,1257,239,1257,239,1317,189,1317'/>
+<sample name='LL_LDHH_AM_26' />
+</tissue>
+<tissue colorKey='#BB6666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 4h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='246,1257,296,1257,296,1317,246,1317'/>
+<sample name='LL_LDHH_AM_30' />
+</tissue>
+<tissue colorKey='#AA6666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 8h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='297,1257,347,1257,347,1317,297,1317'/>
+<sample name='LL_LDHH_AM_34' />
+</tissue>
+<tissue colorKey='#996666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 12h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='354,1257,404,1257,404,1317,354,1317'/>
+<sample name='LL_LDHH_AM_38' />
+</tissue>
+<tissue colorKey='#886666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 16h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='408,1257,458,1257,458,1317,408,1317'/>
+<sample name='LL_LDHH_AM_42' />
+</tissue>
+<tissue colorKey='#776666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 20h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='463,1257,513,1257,513,1317,463,1317'/>
+<sample name='LL_LDHH_AM_46' />
+</tissue>
+<tissue colorKey='#556666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 24h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='518,1257,568,1257,568,1317,518,1317'/>
+<sample name='LL_LDHH_AM_50' />
+</tissue>
+<tissue colorKey='#446666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 28h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='573,1257,623,1257,623,1317,573,1317'/>
+<sample name='LL_LDHH_AM_54' />
+</tissue>
+<tissue colorKey='#336666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 32h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='628,1257,678,1257,678,1317,628,1317'/>
+<sample name='LL_LDHH_AM_58' />
+</tissue>
+<tissue colorKey='#226666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 36h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='683,1257,733,1257,733,1317,683,1317'/>
+<sample name='LL_LDHH_AM_62' />
+</tissue>
+<tissue colorKey='#116666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 40h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='738,1257,788,1257,788,1317,738,1317'/>
+<sample name='LL_LDHH_AM_66' />
+</tissue>
+<tissue colorKey='#006666' name='Circadian experiment - plants grown under 12h light-dark cycle and constant temperature, then sampled under continuous light and constant temperature, 44h'>
+<link url='http://www.ncbi.nlm.nih.gov/pubmed/17417004'/>
+<area coords='793,1257,843,1257,843,1317,793,1317'/>
+<sample name='LL_LDHH_AM_70' />
+</tissue>
+</group>
+
+<group name="DD_DDHC_00">
+<control sample="DD_DDHC_00"/>
+<tissue colorKey='#CC5555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 0h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='160,1374,210,1374,210,1434,160,1434'/>
+<sample name='DD_DDHC_00' />
+</tissue>
+<tissue colorKey='#BB5555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 4h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='217,1374,267,1374,267,1434,217,1434'/>
+<sample name='DD_DDHC_04' />
+</tissue>
+<tissue colorKey='#AA5555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 8h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='268,1374,318,1374,318,1434,268,1434'/>
+<sample name='DD_DDHC_08' />
+</tissue>
+<tissue colorKey='#995555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 12h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='325,1374,375,1374,375,1434,325,1434'/>
+<sample name='DD_DDHC_12' />
+</tissue>
+<tissue colorKey='#885555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 16h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='379,1374,429,1374,429,1434,379,1434'/>
+<sample name='DD_DDHC_16' />
+</tissue>
+<tissue colorKey='#775555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 20h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='434,1374,484,1374,484,1434,434,1434'/>
+<sample name='DD_DDHC_20' />
+</tissue>
+<tissue colorKey='#665555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 24h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='489,1374,539,1374,539,1434,489,1434'/>
+<sample name='DD_DDHC_24' />
+</tissue>
+<tissue colorKey='#445555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 28h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='544,1374,594,1374,594,1434,544,1434'/>
+<sample name='DD_DDHC_28' />
+</tissue>
+<tissue colorKey='#335555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 32h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='599,1374,649,1374,649,1434,599,1434'/>
+<sample name='DD_DDHC_32' />
+</tissue>
+<tissue colorKey='#225555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 36h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='654,1374,704,1374,704,1434,654,1434'/>
+<sample name='DD_DDHC_36' />
+</tissue>
+<tissue colorKey='#115555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 40h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='709,1374,759,1374,759,1434,709,1434'/>
+<sample name='DD_DDHC_40' />
+</tissue>
+<tissue colorKey='#005555' name='Control series - plants grown in constant dark but with a temperature cycle applied. Samples taken in constant dark and temperature, 44h'>
+<link url='http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1304'/>
+<area coords='764,1374,814,1374,814,1434,764,1434'/>
+<sample name='DD_DDHC_44' />
+</tissue>
+</group>
+
+<group name="45 minute AtGenExpress set">
+<control sample="AtGen_D-9_1-DS_REP1_ATH1" />
+<control sample="AtGen_D-25_2-DS_REP2_ATH1" />
+<control sample="AtGen_D-41_3-DS_REP3_ATH1" />
+<tissue colorKey="#CC4444" name="4 d darkness then 1 min red light then 44 min darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="76,1560,110,1560,110,1646,76,1646"/>
+<sample name="AtGen_D-11_1-PS_REP1_ATH1" />
+<sample name="AtGen_D-27_2-PS_REP2_ATH1" />
+<sample name="AtGen_D-43_3-PS_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#FF99FF" name="4 d darkness then 5 min UV-A light then 40 min darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="173,1560,207,1560,207,1646,173,1646"/>
+<sample name="AtGen_D-14_1-AS_REP1_ATH1" />
+<sample name="AtGen_D-30_2-AS_REP2_ATH1" />
+<sample name="AtGen_D-46_3-AS_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#660066" name="4 d darkness then 5 min UV-A/B light then 40 min darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="271,1560,305,1560,305,1646,271,1646"/>
+<sample name="AtGen_D-15_1-US_REP1_ATH1" />
+<sample name="AtGen_D-47_3-US_REP3_ATH1" />
+<sample name="AtGen_D-31_2-US_REP2_ATH1" />
+</tissue>
+
+<tissue colorKey="#993333" name="4 d darkness then 45 min continuous red light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="391,1560,425,1560,425,1646,391,1646"/>
+<sample name="AtGen_D-12_1-RS_REP1_ATH1" />
+<sample name="AtGen_D-28_2-RS_REP2_ATH1" />
+<sample name="AtGen_D-44_3-RS_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#FF6666" name="4 d darkness then 45 min continuous far-red light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="493,1560,527,1560,527,1646,493,1646"/>
+<sample name="AtGen_D-10_1-FS_REP1_ATH1" />
+<sample name="AtGen_D-42_3-FS_REP3_ATH1" />
+<sample name="AtGen_D-26_1-FS_REP2_ATH1" />
+</tissue>
+
+<tissue colorKey="#336699" name="4 d darkness then 45 min continuous blue light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="600,1560,634,1560,634,1646,600,1646"/>
+<sample name="AtGen_D-13_1-BS_REP1_ATH1" />
+<sample name="AtGen_D-29_2-BS_REP2_ATH1" />
+<sample name="AtGen_D-45_3-BS_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#CCCC99" name="4 d darkness then 45 min continuous white light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="705,1560,739,1560,739,1646,705,1646"/>
+<sample name="AtGen_D-16_1-WS_REP1_ATH1" />
+<sample name="AtGen_D-32_2-WS_REP2_ATH1" />
+<sample name="AtGen_D-48_3-WS_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#5B4444" name="dark control 44min">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="826,1560,860,1560,860,1646,826,1646"/>
+<sample name="AtGen_D-9_1-DS_REP1_ATH1" />
+<sample name="AtGen_D-25_2-DS_REP2_ATH1" />
+<sample name="AtGen_D-41_3-DS_REP3_ATH1" />
+</tissue>
+</group>
+
+<group name="4h AtGenExpress set">
+<control sample="AtGen_D-33_3-DL_REP3_ATH1" />
+<control sample="AtGen_D-1_1-DL_REP1_ATH1" />
+<control sample="AtGen_D-17_2-DL_REP2_ATH1" />
+
+<tissue colorKey="#884444" name="4 d darkness then 1 min red light then 4 h darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="115,1560,149,1560,149,1646,115,1646"/>
+<sample name="AtGen_D-3_1-PL_REP1_ATH1" />
+<sample name="AtGen_D-19_2-PL_REP2_ATH1" />
+<sample name="AtGen_D-35_3-PL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#996699" name="4 d darkness then 5 min UV-A light then 4 h darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="212,1560,246,1560,246,1646,212,1646"/>
+<sample name="AtGen_D-6_1-AL_REP1_ATH1" />
+<sample name="AtGen_D-22_2-AL_REP2_ATH1" />
+<sample name="AtGen_D-38_3-AL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#330033" name="4 d darkness then 5 min UV-A/B light then 4 h darkness">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="309,1560,343,1560,343,1646,309,1646"/>
+<sample name="AtGen_D-7_1-UL_REP1_ATH1" />
+<sample name="AtGen_D-23_2-UL_REP2_ATH1" />
+<sample name="AtGen_D-39_3-UL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#990000" name="4 d darkness then 4 h continuous red light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="429,1560,463,1560,463,1646,429,1646"/>
+<sample name="AtGen_D-4_1-RL_REP1_ATH1" />
+<sample name="AtGen_D-20_2-RL_REP2_ATH1" />
+<sample name="AtGen_D-36_3-RL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#FF3333" name="4 d darkness then 4 h continuous far-red light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="534,1560,568,1560,568,1646,534,1646"/>
+<sample name="AtGen_D-2_1-FL_REP1_ATH1" />
+<sample name="AtGen_D-18_2-FL_REP2_ATH1" />
+<sample name="AtGen_D-34_3-FL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#006699" name="4 d darkness then 4 h continuous blue light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="639,1560,673,1560,673,1646,639,1646"/>
+<sample name="AtGen_D-5_1-BL_REP1_ATH1" />
+<sample name="AtGen_D-21_2-BL_REP2_ATH1" />
+<sample name="AtGen_D-37_3-BL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#CCCC66" name="4 d darkness then 4 h continuous white light">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="746,1560,780,1560,780,1646,746,1646"/>
+<sample name="AtGen_D-8_1-WL_REP1_ATH1" />
+<sample name="AtGen_D-24_2-WL_REP2_ATH1" />
+<sample name="AtGen_D-40_3-WL_REP3_ATH1" />
+</tissue>
+
+<tissue colorKey="#453030" name="dark control 4h">
+<link url="http://www.bar.utoronto.ca/NASCArrays/index.php?ExpID=124"/>
+<area coords="865,1560,899,1560,899,1646,865,1646"/>
+<sample name="AtGen_D-33_3-DL_REP3_ATH1" />
+<sample name="AtGen_D-1_1-DL_REP1_ATH1" />
+<sample name="AtGen_D-17_2-DL_REP2_ATH1" />
+</tissue>
+</group>
+
+</view>
+</specimen>

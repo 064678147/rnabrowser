@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE files SYSTEM "bamlocator.dtd">
+<files>
+    <file name="http://newland.iplantcollaborative.org/iplant/home/araport/rnaseq_bam/aerial/ERR274310/accepted_hits.bam"
+          title="Aerial part of long-day-grown 4-leaf-stage seedling with mock (NaCl) treatment"
+          description="shoot, E-MTAB-1668:24hCS-RNA"
+          url="http://trace.ncbi.nlm.nih.gov/Traces/sra/?study=ERP002617"
+          foreground="0x0000FF"
+          experimentno="ERR274310"
+          publicationid="http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1668/"
+          numberofreads="29098868"
+          subunitname="ath-shoot-apex.svg"
+          control="ERR274310">
+        <groupwith>
+            <experiment>ERR274309</experiment>
+            <experiment>ERR274308</experiment>
+            <experiment>ERR274311</experiment>
+        </groupwith>
+    </file>
+        
+    <file name="http://newland.iplantcollaborative.org/iplant/home/araport/rnaseq_bam/light/SRR345562/accepted_hits.bam"
+          title="7-day-old plate-grown long-day seedlings"
+          description="seedling, GSM798296: mRNASeq_WT_rep2"
+          url="http://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP008262"
+          foreground="0xFF0000"
+          experimentno="SRR345562"
+          publicationid="http://www.ncbi.nlm.nih.gov/pubmed/22942380"
+          numberofreads="13627154"
+          subunitname="ath-seedling.svg"
+          control="SRR345562">
+        <groupwith>
+            <experiment>SRR345561</experiment>
+            <experiment>SRR345563</experiment>
+            <experiment>SRR345564</experiment>
+        </groupwith>
+    </file>
+    
+</files>
+
+
+
+
+
+
+
+<tag1>
+    <tag2 />
+</tag1>
