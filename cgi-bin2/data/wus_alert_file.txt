@@ -1,3 +1,0 @@
-#for letting users know that WUS shows odd expression behaviour in wus KO plants (Chatfield et al., 2012)
-At2g17950	265821_at
-At2g17950	265821_at
