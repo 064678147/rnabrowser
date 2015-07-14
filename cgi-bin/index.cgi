@@ -3,6 +3,7 @@ print "Content-Type: text/html"     # HTML is following
 print                               # blank line, end of headers
 print "<title>hello world</title>"
 
+import os
 import cgi
 import cgitb
 import re
@@ -41,8 +42,7 @@ cgitb.enable()
 #values = [int(x / max(values) * 200) for x in values]
 # create a subclass and override the handler methods
 collector = {}
-svg = open("SVGs/youngSeedling.svg", "r")
-data = svg.read()
+
 # class MyHTMLParser(HTMLParser):
 #     def handle_starttag(self, tag, attrs):
 # 		print self.getpos()
@@ -56,24 +56,37 @@ data = svg.read()
 #         print "Encountered some data  :", data
 # parser = MyHTMLParser()
 # parser.feed(data)
+svg = open("SVGs/youngSeedling.svg", "r")
+data = svg.read()
 
 form = cgi.FieldStorage()
 print '<script src="sort.js"> </script>'
+print '<style>'
+print 'td {text-align:center;}'
+print '</style>'
 print "<body>"
 print '	<table border="1" class="sortable" style="width:100%" align="centre">'
-print '		<tr>'
-print '			<td> Hello World </td>'
-print '			<td />'
-print '		</tr>'
-print '		<tr>'
-print '			<td />'
-print '			<td />'
-print '		</tr>'
+print '			<th> Expt </th>'
+print '			<th> RNA-Seq Coverage <br /><img src="test.png"> </th>'
+print '			<th> eFP - RPKM </th>'
+print '			<th> SRA Record </th>'
+print '			<th> Details </th>'
+
+files = [ f for f in os.listdir("SVGs") if os.path.isfile(os.path.join("SVGs",f)) ]
+for item in files:
+	svg = open("SVGs/" + item, "r")
+	data = svg.read()
+	print '		<tr>'
+	print '			<td> WT </td>'
+	print '			<td> <img src="rnaseqgraph.png"> </td>'
+	print '			<td>' + data.replace('fill="none"', 'fill="blue"') + '</td>'
+	print '			<td> <a> SRA12345 </a> </td>'
+	print '			<td> <a> See Filichkin et. al 2010 </a> </td>'
+	print '		</tr>'
 print '	</table>'
-print '<img src="test.png"> <p />'
-print data.replace('fill="none"', 'fill="blue"')
-print '<img src="rnaseqgraph.png">'
+
 print form.getvalue("name")
+
 print "</body>"
 # print "</html>"
 
