@@ -30,6 +30,8 @@ for region in j[u'result']:
 			start = region[u'start']
 		if region[u'end'] > end:
 			end = region[u'end']
+			
+print "Chr%s:%s-%s" %(chromosome, start, end)
 
 def generate_exon_graph():
 	exongraph = gd.image((200, 100))
@@ -110,7 +112,7 @@ for item in files:
 print '	</table>'
 
 print form.getvalue("name")
-generate_exon_graph()
-generate_rnaseq_graph()
+# generate_exon_graph()
+# generate_rnaseq_graph()
 print "</body>"
 # print "</html>"
