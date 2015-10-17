@@ -1,0 +1,41 @@
+{%- extends "base.html" %}
+{% block head -%}
+{{super()}}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{%- endblock head %}
+{% block content %}
+<div class="container">
+  <table border="1" class="sortable xml-table" style="width:100%">
+    <th>Description</th>
+    <th>Experiment number</th>
+    <th>Foreground</th>
+    <th>Name</th>
+    <th>Number of Reads</th>
+    <th>Publication ID</th>
+    <th>Subunit</th>
+    <th>Title</th>
+    <th>URL</th>
+
+    {% for file in xmltable %}
+    <tr style = "background-color:{{file.attrib.get('colour')}}">
+      {% for header in xmltableheaders %}
+      <td
+      {% if header == 'foreground'%} style="background-color:{{file.attrib.get(header)}}"{% endif %}>
+      {% if header == 'url' %}
+        <a href="{{file.attrib.get(header)}}">URL link</a>
+      {% elif header == 'publicationid' %}
+        <a href="{{file.attrib.get(header)}}">Publication link</a>
+      {% elif header == 'name' %}
+        <a href="{{file.attrib.get(header)}}">BAM file link</a>
+      {% else %}
+        {{file.attrib.get(header)|safe}}
+      {% endif %}
+      </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+
+  </table>
+
+</div>
+{%- endblock %}
