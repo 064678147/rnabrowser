@@ -3,7 +3,8 @@ The BAR RNA-seq browser aims to be a convenient and easy to use browser to explo
 
 
 # Flask instructions
-- cd to flask/
-- activate virtual env: windows run venv/Scripts/activate
-- linux run source venv/bin/activate
-- python helloworld.py
+- install virtualenv, create your own virtualenv
+MAKE SURE YOU DON'T CHECK THIS VIRTUALENV INTO THE REPO
+- activate your virtualenv
+- run pip install -r requirements.txt
+- python server.py
