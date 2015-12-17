@@ -1,22 +1,12 @@
 from flask import Flask
 from flask import render_template
 import xml.etree.ElementTree
+import multi
 
+HOST = "127.0.0.1"
+PORT = 5000
 
 app = Flask(__name__)
-
-# class Record:
-#   def __init__(self, file):
-#     self.description = file.attrib.get("description")
-#     self.experimentno = file.attrib.get("experimentno")
-#     self.foreground = file.attrib.get("foreground")
-#     self.name = file.attrib.get("name")
-#     self.numberofreads = file.attrib.get("numberofreads")
-#     self.publicationid = file.attrib.get("publicationid")
-#     self.subunitname = file.attrib.get("subunitname")
-#     self.title = file.attrib.get("title")
-#     self.url = file.attrib.get("url")
-#     self.control = file.find("control")
 
 
 @app.route('/display')
@@ -37,5 +27,14 @@ def index():
     xmltable.append(entry)
   return render_template('index.html', xmltableheaders=headers, xmltable=xmltable)
 
+@app.route('/')
+def uiviewer():
+  print render_template('uiview.html')
+
+@app.route('/multi')
+def multiview():
+  return multi.run("AT5G66460")
+  
 if __name__ == '__main__':
-    app.run(debug=True)
+  print "Listening on " + HOST + ":" + str(PORT)
+  app.run(host=HOST, port=PORT, debug=True)
