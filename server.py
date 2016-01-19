@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask import render_template
 import xml.etree.ElementTree
 import multi
@@ -33,7 +33,7 @@ def uiviewer():
 
 @app.route('/multi')
 def multiview():
-  return multi.run("AT5G66460")
+  return multi.run(request.args.get('locus'))
   
 if __name__ == '__main__':
   print "Listening on " + HOST + ":" + str(PORT)

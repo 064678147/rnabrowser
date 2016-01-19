@@ -18,6 +18,7 @@ from random import randint
 # cgitb.enable()
 
 
+
 # ----- CONSTANTS -----
 EXON_IMG_WIDTH = 450
 EXON_IMG_HEIGHT = 7
@@ -51,7 +52,7 @@ def generate_exon_graph(map_info, start, end):
 	exongraph.writePng(f)
 	f.close()
 
-def generate_rnaseq_graph(urlx, filename, out_clr, geneid):
+def generate_rnaseq_graph(urlx, filename, out_clr, geneid, start, end):
 	xvalues = []
 	values = []
 	#output += "<br/>GENERATING RNA SEQ GRAPH! colour = " + str(hex_to_rgb(out_clr))  
@@ -93,11 +94,8 @@ def run(locus):
 	    red_sqr.writePng(f)
 	    f.close()
 
-
-	geneid = locus
-
-
 	# ----- GETS MAPPING INFO FOR THE GENE ID -----
+	geneid = locus
 	map_info = json.loads(urllib2.urlopen("http://bar.utoronto.ca/webservices/araport/gff/get_tair10_gff.php?locus=" + geneid).read())
 
 	start = map_info[u'result'][0][u'start'] if map_info[u'result'][0][u'strand'] == u'+' else map_info[u'result'][0][u'end']
@@ -118,9 +116,9 @@ def run(locus):
 				start = region[u'start']
 			if region[u'end'] > end:
 				end = region[u'end']
+
+
 	output = ""
-	output += "Content-Type: text/html"     # HTML is following
-	output += "\n"                             # blank line, end of headers
 	output += "<title>MULTI TRACK RNA-seq Browser</title>"
 	generate_exon_graph(map_info, start, end)
 
@@ -188,12 +186,13 @@ def run(locus):
 					if key == "name":
 						img_file_name = (cases["img"][66:]).replace("/", "_").replace(".bam", "")
 						output += "<br/>Read from: " + (cases["img"][66:]).replace("/", "_").replace(".png", "")
-						img_file_name = "img/" + img_file_name
+						img_file_name = "static/images/" + img_file_name
 						output += "<br/>Output went to: " + img_file_name
-						generate_rnaseq_graph((cases["img"][66:]).replace("/", "_").replace(".png", ""), img_file_name, clr, geneid)
+						generate_rnaseq_graph((cases["img"][66:]).replace("/", "_").replace(".png", ""), img_file_name, clr, geneid, start, end)
+						output += '<br/>'
 						output += '<img src="' + img_file_name + '">'
 						output += '<br/>'
-						output += '<img src="multi_exongraph.png">'
+						output += '<img src="static/images/multi_exongraph.png">'
 				else:
 					output += child.attrib[key]
 				if bold:
